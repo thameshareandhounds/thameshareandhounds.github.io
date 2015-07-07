@@ -1,0 +1,12 @@
+# Site settings
+title: Thames Hare and Hounds
+email: what-is-our-email-anyway@thameshareandhounds.org.uk
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to the putative new web site for world's oldest running club.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://thameshareandhounds.github.io" # the base hostname & protocol for your site
+twitter_username: ThamesHandH
+github_username:  thameshareandhounds
+
+# Build settings
+markdown: kramdown

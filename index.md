@@ -15,6 +15,7 @@ Here is a list of articles/posts, which can be created in the \_posts subdirecto
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>

@@ -20,4 +20,4 @@ Here is a list of articles/posts, which can be created in the \_posts subdirecto
   {% endfor %}
 </ul>
 
-Edited through the web by Andy, far too late on Tuesday night.
+Edited through the web by Andy, far too late on Tuesday night, then demo'd to Peter.

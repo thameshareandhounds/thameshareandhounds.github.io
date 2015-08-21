@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"repo",
+				"report_link"
+			],
+			[
 				"fund",
 				"fund_name"
 			],
@@ -321,9 +325,6 @@
 			]
 		]
 	},
-	"buffers":
-	[
-	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -354,12 +355,21 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/andy/code/thameshareandhounds.github.io"
-	],
 	"file_history":
 	[
+		"/Users/andy/code/thameshareandhounds.github.io/.gitignore",
+		"/Users/andy/code/thameshareandhounds.github.io/scripts/scrape.py",
+		"/Users/andy/code/thameshareandhounds.github.io/scripts/requirements.txt",
+		"/Users/andy/code/thameshareandhounds.github.io/_config.yml",
+		"/Users/andy/code/thameshareandhounds.github.io/all.html",
+		"/Users/andy/code/thameshareandhounds.github.io/_posts/2014-12-25-christmas.md",
+		"/Users/andy/code/thameshareandhounds.github.io/_posts/2015-08-20-august.md",
+		"/Users/andy/code/thameshareandhounds.github.io/allposts.md",
+		"/Users/andy/code/thameshareandhounds.github.io/index.md",
+		"/Users/andy/code/thameshareandhounds.github.io/_site/about/index.html",
+		"/Users/andy/code/thameshareandhounds.github.io/Gemfile",
+		"/Users/andy/code/thameshareandhounds.github.io/index.html",
+		"/Users/andy/code/mongorecalc/fetch_ucl_feed.py",
 		"/Users/andy/code/thhpelican/content/pages/about.md",
 		"/Users/andy/code/thhpelican/output/index.html",
 		"/Users/andy/code/xcvm/client/templates/includes/header.html",
@@ -474,22 +484,11 @@
 		"/Users/andy/code/raceresults/project/templates/base.html",
 		"/Users/andy/code/raceresults/project/templates/common/about.html",
 		"/Users/andy/code/raceresults/non_null_races.json",
-		"/Users/andy/code/raceresults/project/surreyleague/management/commands/sl_create_races.py",
-		"/Users/andy/code/raceresults/project/templates/surreyleague/match.html",
-		"/Users/andy/code/raceresults/project/templates/surreyleague/edit_race.html",
-		"/Users/andy/code/raceresults/project/surreyleague/tmp.txt",
-		"/Users/andy/code/raceresults/project/surreyleague/urls.py",
-		"/Users/andy/code/raceresults/project/thames/models.py",
-		"/Users/andy/code/gitifie/update_dev_environment",
-		"/Users/andy/code/raceresults/project/thames/admin.py",
-		"/Users/andy/code/raceresults/project/thames/fixtures/fixtures.json",
-		"/Users/andy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/andy/code/raceresults/project/surreyleague/management/commands/sl_load_2013_ladies1.py",
-		"/Users/andy/code/raceresults/project/surreyleague/tests.py"
+		"/Users/andy/code/raceresults/project/surreyleague/management/commands/sl_create_races.py"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -580,14 +579,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"sheets":
-			[
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 23.0
@@ -624,7 +615,6 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "thhsite.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -657,7 +647,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},

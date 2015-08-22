@@ -8,7 +8,7 @@ OUTDIR = "../_posts"
 
 TEMPLATE = """---
 layout: post
-title: %s
+title: "%s"
 ---
 
 <p class="summary">%s</p>
@@ -48,7 +48,7 @@ def run():
     for (report_id, title, summary, body, updated) in data:
 
         filename = '%s-%s.html' % (updated, slugify(title))
-        fullpath = os.path.join(OUTDIR, filename)
+        fullpath = os.path.join(OUTDIR, str(updated.year), filename)
 
         f = open(fullpath, 'w')
         content = TEMPLATE % (title, summary)

@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://thh.run" # the base hostname & protocol for your site
 twitter_username: ThamesHandH
 github_username:  thameshareandhounds
-exclude: ["scripts"]
+exclude: ["scripts", "_posts/2003", "_posts/2004", "_posts/2005", "_posts/2006", "_posts/2007", "_posts/2008", "_posts/2009", "_posts/2010", "_posts/2011", "_posts/2012", "_posts/2013", ]
 
 # Build settings
 markdown: kramdown

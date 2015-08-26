@@ -1,0 +1,73 @@
+
+/* Header */
+
+nav {
+	background: white;
+}
+nav ul li a { 
+	cursor: pointer;
+	border-right: 0px solid white;
+	float: right;
+}
+
+h1 {
+	font-size: 35px;
+	padding: 25px 100px 20px 120px;
+	margin: 0;
+	color: black;
+}
+.thh {
+	position: absolute;
+	padding: 0;
+	margin: 10px;
+}
+p {
+	font-size: 20px;
+
+}
+
+/* Footer */
+
+footer {
+	background: white;
+}
+footer nav {
+	border: 0px;
+}
+.footertext .email a {
+	display: inline-block;
+	font-size: 18px;
+	color: black;
+	padding: 0;
+	margin: 0 0 0 30px;
+	text-decoration: none;
+}
+.email {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+.twitter {
+	padding: 0;
+	margin: 0;
+}
+.emailpic {
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+.twitterpic {
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+	p {
+		font-size: 15px;
+	}
+}

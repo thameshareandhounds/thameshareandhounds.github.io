@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/andy/tmp/mdl"
 		}
 	]
 }

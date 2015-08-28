@@ -3,19 +3,21 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-    <header>
     {% include header.html %}
-    </header>
-
-    <main>
+    
+    <main class="mdl-layout__content">
+      <section class="section--center mdl-grid mdl-grid--no-spacing">
+        <div class="mdl-cell mdl-cell--12-col">
     {{ content }}
+        </div>
+      </section>
     </main>
-
-    <footer>
+    
     {% include footer.html %}
-    </footer>
+    </div>
 
   </body>
 

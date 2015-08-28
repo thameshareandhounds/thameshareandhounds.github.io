@@ -8,10 +8,29 @@
     <label for="expand-util"><icon class="expand">menu</icon></label>
 
     <ul id="menu">
-    	<li><a>Club kit</a></li>
-    	<li><a>Races</a></li>    	
-    	<li><a>About</a></li>    	
-    	<li><a>Home</a></li>
+    	<li><a href="/home.html">Home</a></li>
+    	<li><a href="/about.html">About</a></li>   	
+        <li><a href="/clubkit.html">Club Kits</a></li>
+        <li>
+            <ul class="dropdown">
+              <li><a class="drop" href="/race.html">Races</a>
+                <ul>
+                  <li><a href="#">Race 1</a></li>
+                  <li><a href="#">Race 2</a></li>
+                  <li><a href="#">Race 3</a></li>
+                  <li><a href="#">Race 4</a></li>
+                  <li><a class="drop" href="#">Other</a>
+                    <ul><!-- or class="left" -->
+                      <li><a href="#">Second-Chlid 1</a></li>
+                      <li><a href="#">Second-Chlid 2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+        </li>
     </ul>
+
 </nav>
 

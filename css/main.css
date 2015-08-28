@@ -1,20 +1,59 @@
 
 /* Header */
 
+header {
+	height: 110px;
+	border-bottom: 1px solid black;
+}
+
 nav {
 	background: white;
+	border: 0px;
+	overflow: visible;
 }
-nav ul li a { 
+nav .dropdown li a { 
 	cursor: pointer;
 	border-right: 0px solid white;
 	float: right;
+	color: #707070;
+}
+nav .dropdown li {
+	display: block;
+}
+nav .dropdown li:hover ul {
+	width: auto;
+	padding: .2em 1.5em;
+}
+nav ul.dropdown>li>a {
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+    border: solid #979797;
+    border-width: 0 1px 0 0;
+    color: #979797;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
 }
 
-h1 {
+dropdown li:hover ul li a, 
+.dropdown li:hover ul li a, 
+dropdown li a:hover ul li a, 
+.dropdown li a:hover ul li a {
+	width: auto;
+}
+dropdown>li>ul,
+.dropdown>li>ul,
+dropdown>li>ul,
+.dropdown>li>ul {
+	margin-top: -5px;
+}
+nav>a>h1 {
 	font-size: 35px;
-	padding: 25px 100px 20px 120px;
+	padding: 25px 100px 0 120px;
 	margin: 0;
-	color: black;
+	color: #707070;
 }
 .thh {
 	position: absolute;
@@ -34,12 +73,12 @@ footer {
 footer nav {
 	border: 0px;
 }
-.footertext .email a {
+.footertext a {
 	display: inline-block;
 	font-size: 18px;
 	color: black;
 	padding: 0;
-	margin: 0 0 0 30px;
+	margin: 0 0 0 20px;
 	text-decoration: none;
 }
 .email {
@@ -60,14 +99,19 @@ footer nav {
 	margin: 0;
 	vertical-align: middle;
 }
-
-
-
-
-
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 	p {
 		font-size: 15px;
+	}
+	nav a h1 {
+		font-size: 18px;
+		padding: 20px 50px 0 100px;
+	}
+	.thh {
+		height: 60px;
+		width: 60px;
+	}
+	header {
+		height: 140px
 	}
 }

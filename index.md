@@ -9,7 +9,7 @@ permalink: /
 
 Here is a list of articles/posts, which can be created in the \_posts subdirectory
 <ul>
-  {% for post in site.posts limit:5%}
+  {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}

@@ -252,7 +252,32 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+
+/* Thh css */
+
 header>div>h3 {
   color: black;
 }
-
+footer {
+  margin-top: 20px;
+}
+.imgcontainer {
+  display: block;
+  float: center;
+  padding: 50px;
+  border: 1px solid black;
+}
+.imgcontainer>img {
+  display: block;
+  padding: 20px 0;
+}
+.imgcontainer>h4 {
+  float: left;
+  width: 500px;
+  padding: 10px 30px;
+}
+.reportscontainer {
+  display: block;
+  float: right;
+}

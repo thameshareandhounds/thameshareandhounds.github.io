@@ -192,7 +192,7 @@ footer {
 }
 .imgcontainer>img {
   display: block;
-  padding: 20px 0;
+  padding: 20px;
 }
 .imgcontainer>h4 {
   float: left;
@@ -203,3 +203,12 @@ footer {
   display: block;
   float: right;
 }
+
+
+
+.thh-main-content {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+}
+

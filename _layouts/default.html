@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html>
-
+  <head>
   {% include head.html %}
+  </head>
 
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
-    {% include header.html %}
+  <body>
+    <!-- header and drawer section defined in header.html-->
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
     
-      <section class="section--center mdl-grid mdl-grid--no-spacing">
-        <div class="mdl-cell mdl-cell--12-col">
-    {{ content }}
+{% include header.html %}
+
+
+
+      <main class="mdl-layout__content mdl-color--grey-100">`
+        <div class="mdl-grid demo-content">
+          <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+            <div class="thh-main-content">
+        {{ content }}
+            </div>
+          </div>
         </div>
-      </section>
+      </main>      
+  {% include footer.html %}
     
-    {% include footer.html %}
-    </div>
 
+    </div>
+    <script src="/js/material.min.js"></script>
   </body>
 
 </html>

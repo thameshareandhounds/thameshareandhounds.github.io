@@ -327,42 +327,63 @@
 			"file": "_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 1213,
+				"buffer_size": 774,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "about.md",
+			"file": "_posts/2015-08-28-web-progress.md",
 			"settings":
 			{
-				"buffer_size": 486,
+				"buffer_size": 312,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "runs.html",
+			"file": ".git/config",
 			"settings":
 			{
-				"buffer_size": 2803,
+				"buffer_size": 318,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_posts/2015-07-07-andys-first-post.md",
+			"file": "_includes/head.html",
 			"settings":
 			{
-				"buffer_size": 234,
+				"buffer_size": 2195,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "---\nlayout: post\ntitle:  \"Merry Christmas\"\ndate:   2014-12-25\ncategories: race\n---\n\nCreating this to test the date indexing\n",
-			"file": "_posts/2014-12-25-christmas.md",
-			"file_size": 124,
-			"file_write_time": 130846234291229451,
+			"file": "/home/andy/tmp/mdl/templates/text-only/index.html",
 			"settings":
 			{
-				"buffer_size": 124,
+				"buffer_size": 19791,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mdl.html",
+			"settings":
+			{
+				"buffer_size": 5594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 520,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 6500,
 				"line_ending": "Unix"
 			}
 		}
@@ -400,14 +421,17 @@
 	"expanded_folders":
 	[
 		"/home/andy/code/thameshareandhounds.github.io",
-		"/home/andy/code/thameshareandhounds.github.io/_includes",
 		"/home/andy/code/thameshareandhounds.github.io/_layouts",
 		"/home/andy/code/thameshareandhounds.github.io/_posts",
-		"/home/andy/code/thameshareandhounds.github.io/_sass",
-		"/home/andy/code/thameshareandhounds.github.io/css"
+		"/home/andy/code/thameshareandhounds.github.io/css",
+		"/home/andy/tmp/mdl"
 	],
 	"file_history":
 	[
+		"/home/andy/code/thameshareandhounds.github.io/_includes/footer.html",
+		"/home/andy/code/thameshareandhounds.github.io/runs.html",
+		"/home/andy/code/thameshareandhounds.github.io/about.md",
+		"/home/andy/code/thameshareandhounds.github.io/_posts/2015-07-07-andys-first-post.md",
 		"/Users/andy/code/thhpelican/content/pages/about.md",
 		"/Users/andy/code/thhpelican/output/index.html",
 		"/Users/andy/code/xcvm/client/templates/includes/header.html",
@@ -531,9 +555,7 @@
 		"/Users/andy/code/gitifie/update_dev_environment",
 		"/Users/andy/code/raceresults/project/thames/admin.py",
 		"/Users/andy/code/raceresults/project/thames/fixtures/fixtures.json",
-		"/Users/andy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/andy/code/raceresults/project/surreyleague/management/commands/sl_load_2013_ladies1.py",
-		"/Users/andy/code/raceresults/project/surreyleague/tests.py"
+		"/Users/andy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
@@ -631,7 +653,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -640,73 +662,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1213,
+						"buffer_size": 774,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								202,
-								202
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "about.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								485,
-								485
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "runs.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2803,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								67,
-								67
+								0,
+								0
 							]
 						],
 						"settings":
@@ -723,20 +687,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "_posts/2015-07-07-andys-first-post.md",
+					"buffer": 1,
+					"file": "_posts/2015-08-28-web-progress.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 234,
+						"buffer_size": 312,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								50,
-								50
+								312,
+								312
 							]
 						],
 						"settings":
@@ -747,16 +711,44 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "_posts/2014-12-25-christmas.md",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": ".git/config",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 124,
+						"buffer_size": 318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2195,
 						"regions":
 						{
 						},
@@ -769,13 +761,133 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/andy/tmp/mdl/templates/text-only/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16831,
+								16831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5185.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "mdl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6147,
+								6147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3933.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

@@ -33,6 +33,7 @@ html, body {
   align-items: center;
   color: rgba(255, 255, 255, 0.56);
   font-weight: 500;
+  font-size: 1.1em;
 }
 /*Navbar background hover*/
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
@@ -45,6 +46,9 @@ html, body {
   color: rgba(255, 255, 255, 0.56);
   margin-right: 32px;
 }
+.mdl-color-text--blue-grey-400.material-icons {
+  font-size:.9em;
+}
 /*Centers content*/
 .demo-content {
   max-width: 1080px;
@@ -56,6 +60,12 @@ html, body {
 /* thh logo */
 .mdl-layout-title {
   margin: auto;
+}
+.mdl-color--grey-100 {
+  background-color: white !important;
+}
+.mdl-shadow--2dp {
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0),0 0px 0px 0px rgba(0,0,0,0),0 0px 0px 0 rgba(0,0,0,0);
 }
 /* Thh css */
 

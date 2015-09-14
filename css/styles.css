@@ -49,6 +49,14 @@ html, body {
 .demo-content {
   max-width: 1080px;
 }
+/* Navbar spacing */
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  padding: 10px 40px;
+}
+/* thh logo */
+.mdl-layout-title {
+  margin: auto;
+}
 /* Thh css */
 
 header>div>h3 {
@@ -76,12 +84,8 @@ footer {
   display: block;
   float: right;
 }
-
-
-
 .thh-main-content {
   margin-left: 20px;
   margin-right: 10px;
-}
 }
 

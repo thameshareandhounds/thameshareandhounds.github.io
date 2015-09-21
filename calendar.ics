@@ -5,6 +5,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:{{site.url}}{{page.url}}
 METHOD:PUBLISH
+X-WR-TIMEZONE:Europe/London
 {% for season_hash in site.data.fixtures %}
 {% assign fixtures = season_hash[1] %}
 {% for fixture in fixtures %}

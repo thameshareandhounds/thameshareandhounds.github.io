@@ -3,8 +3,10 @@ permalink: /fixtures/
 layout: default
 ---
 
+{% for season_hash in site.data.fixtures %}
+{% assign season = season_hash[0] %}
 
-<h3>Fixtures - 2015-16 season</h3>
+<h3>Fixtures - {{season}} season</h3>
 
 <p>To let us play with the formatting....</p>
 
@@ -18,89 +20,32 @@ layout: default
         </tr>
     </thead>
     <tbody class=index>
+{% assign fixtures = season_hash[1] %}
+{% for fixture in fixtures %}
+    {% assign current_month = fixture.date | date: "%B %Y" %}
+    {% if current_month != month %}
         <tr>
-            <th colspan="4" class="mdl-data-table__cell--non-numeric">September 2015</th>
+            <th colspan="4" class="mdl-data-table__cell--non-numeric">{{current_month}}</th>
         </tr>
+        {% assign month = current_month %}
+    {% endif %}
         <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sat 5th Sep</td>
-            <td class="mdl-data-table__cell--non-numeric">Surrey Road Relays</td>
-            <td class="mdl-data-table__cell--non-numeric">Wimbledon Park</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
+            <td class="mdl-data-table__cell--non-numeric">
+                {{fixture.date | date: "%a"}}
+                {% assign day = fixture.date | date: "%-d" %}
+                {% case day %}
+                    {% when '1' or '21' or '31' %}{{ day }}st
+                    {% when '2' or '22' %}{{ day }}nd
+                    {% when '3' or '23' %}{{ day }}rd
+                    {% else %}{{ day }}th
+                 {% endcase %}
+                {{fixture.date | date: "%b"}}
+            </td>
+            <td class="mdl-data-table__cell--non-numeric">{{fixture.title}}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{fixture.location}}</td>
+            <td class="mdl-data-table__cell--non-numeric">{{fixture.start | date: "%I:%M %p"}}</td>
         </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sat 19th Sep</td>
-            <td class="mdl-data-table__cell--non-numeric">SEAA Relays Women</td>
-            <td class="mdl-data-table__cell--non-numeric">Aldershot</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sun 20th Sep</td>
-            <td class="mdl-data-table__cell--non-numeric">SEAA Relays, Men</td>
-            <td class="mdl-data-table__cell--non-numeric">Aldershot</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
-        <tr>
-            <th colspan="4" class="mdl-data-table__cell--non-numeric">October 2015</th>
-        </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sat 10th Oct</td>
-            <td class="mdl-data-table__cell--non-numeric">Surrey League 1</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
-        <tr>
-            <th colspan="4" class="mdl-data-table__cell--non-numeric">November 2015</th>
-        </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sat 7th Nov</td>
-            <td class="mdl-data-table__cell--non-numeric">Surrey League 2</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
-        <tr>
-            <th colspan="4" class="mdl-data-table__cell--non-numeric">January 2016</th>
-        </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sat 9th Jan</td>
-            <td class="mdl-data-table__cell--non-numeric">Surrey County XC Championships</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sat 16th Jan</td>
-            <td class="mdl-data-table__cell--non-numeric">Surrey League 3</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sat 30th Jan</td>
-            <td class="mdl-data-table__cell--non-numeric">Southern Cross Country Championships</td>
-            <td class="mdl-data-table__cell--non-numeric">Parliament Hill</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
-        <tr>
-            <th colspan="4" class="mdl-data-table__cell--non-numeric">February 2016</th>
-        </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Mon 15th Feb</td>
-            <td class="mdl-data-table__cell--non-numeric">Surrey League 4</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sat 27th Feb</td>
-            <td class="mdl-data-table__cell--non-numeric">National XC Champs</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
-        <tr>
-            <th colspan="4" class="mdl-data-table__cell--non-numeric">April 2016</th>
-        </tr>
-        <tr>
-            <td class="mdl-data-table__cell--non-numeric">Sat 2nd Apr</td>
-            <td class="mdl-data-table__cell--non-numeric">Southern 12/6 stage relays</td>
-            <td class="mdl-data-table__cell--non-numeric">Milton Keynes</td>
-            <td class="mdl-data-table__cell--non-numeric"></td>
-        </tr>
+{% endfor %}
     </tbody>
 </table>
+{% endfor %}

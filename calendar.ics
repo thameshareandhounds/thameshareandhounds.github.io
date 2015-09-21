@@ -1,0 +1,33 @@
+---
+layout: none
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:{{site.url}}{{page.url}}
+METHOD:PUBLISH
+{% for season_hash in site.data.fixtures %}
+{% assign fixtures = season_hash[1] %}
+{% for fixture in fixtures %}
+{% if fixture.date == last_date %}
+  {% assign sub_uid = sub_uid + 1 %}
+{% else %}
+  {% assign sub_uid = 0 %}
+  {% assign last_date = fixture.date %}
+{% endif %}
+BEGIN:VEVENT
+UID:{{ fixture.date | date: "%Y%m%d" }}.{{sub_uid}}@fixtures.thameshareandhounds.org.uk
+ORGANIZER;CN="Thames Hare & Hounds":MAILTO:info@thameshareandhounds.org.uk
+LOCATION:{{ fixture.location }}
+SUMMARY:{{ fixture.title }}
+CLASS:PUBLIC
+DTSTAMP:{{ fixture.date | date: "%Y%m%d" }}T000000
+{% if fixture.start %}
+DTSTART;TZID=Europe/London:{{ fixture.date | date: "%Y%m%d" }}T{{ fixture.start | date: "%H%M%S" }}
+DTEND;TZID=Europe/London:{{ fixture.date | date: "%Y%m%d" }}T{{ fixture.end | date: "%H%M%S" }}
+{% else %}
+DTSTART:{{ fixture.date | date: "%Y%m%d" }}
+{% endif %}
+END:VEVENT
+{% endfor %}
+{% endfor %}
+END:VCALENDAR

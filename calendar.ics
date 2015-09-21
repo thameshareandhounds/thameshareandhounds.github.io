@@ -40,8 +40,10 @@ SUMMARY:{{ fixture.title }}
 CLASS:PUBLIC
 DTSTAMP:{{ fixture.date | date: "%Y%m%d" }}T000000
 {% if fixture.start %}
-DTSTART;TZID=Europe/London:{{ fixture.date | date: "%Y%m%d" }}T{{ fixture.start | date: "%H%M%S" }}
-DTEND;TZID=Europe/London:{{ fixture.date | date: "%Y%m%d" }}T{{ fixture.end | date: "%H%M%S" }}
+{% capture start %}{{fixture.date}} {{fixture.start}}:00{% endcapture %}
+{% capture end %}{{fixture.date}} {{fixture.end}}:00{% endcapture %}
+DTSTART;TZID=Europe/London:{{ start | date: "%Y%m%dT%H%M%S" }}
+DTEND;TZID=Europe/London:{{ start | date: "%Y%m%dT%H%M%S" }}
 {% else %}
 DTSTART:{{ fixture.date | date: "%Y%m%d" }}
 {% endif %}

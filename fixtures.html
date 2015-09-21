@@ -43,7 +43,13 @@ layout: default
             </td>
             <td class="mdl-data-table__cell--non-numeric">{{fixture.title}}</td>
             <td class="mdl-data-table__cell--non-numeric">{{fixture.location}}</td>
-            <td class="mdl-data-table__cell--non-numeric">{{fixture.start | date: "%I:%M %p"}}</td>
+            <td class="mdl-data-table__cell--non-numeric">
+            {% if fixture.start %}
+                {% capture start %}{{ fixture.date | date: "%Y-%m-%d" }} {{fixture.start}}:00{% endcapture %}
+                {{start}}
+                {{start | date: "%I:%M %p"}}
+            {% endif %}
+            </td>
         </tr>
 {% endfor %}
     </tbody>

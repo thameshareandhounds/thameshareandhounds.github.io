@@ -1,0 +1,53 @@
+---
+layout: none
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:{{site.url}}{{page.url}}
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T010000
+TZNAME:GMT+01:00
+TZOFFSETTO:+0100
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T020000
+TZNAME:GMT
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+X-WR-TIMEZONE:Europe/London
+{% for season_hash in site.data.fixtures %}
+{% assign fixtures = season_hash[1] %}
+{% for fixture in fixtures %}
+{% if fixture.date == last_date %}
+  {% assign sub_uid = sub_uid + 1 %}
+{% else %}
+  {% assign sub_uid = 0 %}
+  {% assign last_date = fixture.date %}
+{% endif %}
+BEGIN:VEVENT
+UID:{{ fixture.date | date: "%Y%m%d" }}.{{sub_uid}}@fixtures.thameshareandhounds.org.uk
+ORGANIZER;CN="Thames Hare & Hounds":MAILTO:info@thameshareandhounds.org.uk
+LOCATION:{{ fixture.location }}
+SUMMARY:{{ fixture.title }}
+CLASS:PUBLIC
+DTSTAMP:{{ fixture.date | date: "%Y%m%d" }}T000000
+{% if fixture.start %}
+{% capture start %}{{ fixture.date | date: "%Y-%m-%d" }} {{fixture.start}}:00{% endcapture %}
+{% capture end %}{{ fixture.date | date: "%Y-%m-%d" }} {{fixture.end}}:00{% endcapture %}
+DTSTART;TZID=Europe/London:{{ start | date: "%Y%m%dT%H%M%S" }}
+DTEND;TZID=Europe/London:{{ start | date: "%Y%m%dT%H%M%S" }}
+{% else %}
+DTSTART:{{ fixture.date | date: "%Y%m%d" }}
+{% endif %}
+END:VEVENT
+{% endfor %}
+{% endfor %}
+END:VCALENDAR

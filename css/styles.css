@@ -67,6 +67,9 @@ html, body {
 .mdl-shadow--2dp {
   box-shadow: 0 0px 0px 0 rgba(0,0,0,0),0 0px 0px 0px rgba(0,0,0,0),0 0px 0px 0 rgba(0,0,0,0);
 }
+.material-icons {
+  color: black;
+}
 /* Thh css */
 
 header>div>h3 {
@@ -98,4 +101,15 @@ footer {
   margin-left: 20px;
   margin-right: 10px;
 }
-
+/* Help page */
+.helpcontainer {
+  padding-top: 20px;
+}
+.helpcontainer>p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.helpcontainer>img {
+  border: 2px black solid;
+  margin-bottom: 50px;
+}

@@ -7,7 +7,7 @@ date: 2004-03-20
 author: Chief Pioneer
 ---
 
-The seven and a half mile course is used for mob matches and the long-distance handicap. With a slight deviation at the start to take in the water-splash it is also used for the mens' varsity match.
+{{page.excerpt}} <a href="{{page.map}}">See map</a>.
 
 ### The Long Distance Course – Wimbledon Common
 

@@ -3,5 +3,5 @@
 _crlf: "\r"
 ---
 {% capture _newline %}
-{% endcapture %}{% assign _lines = content | split: _newline %}{% for _line in _lines %}{% if line %}{{line}}{{_cr}}
+{% endcapture %}{% assign _lines = content | split: _newline %}{% for _line in _lines %}{% if _line %}{{_line}}{{_cr}}
 {% endif %}{% endfor %}

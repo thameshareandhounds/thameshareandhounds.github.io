@@ -41,8 +41,26 @@ layout: default
                  {% endcase %}
                 {{fixture.date | date: "%b"}}
             </td>
-            <td class="mdl-data-table__cell--non-numeric">{{fixture.title}}</td>
-            <td class="mdl-data-table__cell--non-numeric">{{fixture.location}}</td>
+            <td class="mdl-data-table__cell--non-numeric">
+            {% if fixture.pioneers %}
+                <abbr title="Pioneers required">¶</abbr>
+            {% endif %}
+            {% if fixture.url %}
+                {{fixture.title | link_to: fixture.url}}
+            {% else %}
+                {{fixture.title}}
+            {% endif %}
+            </td>
+            <td class="mdl-data-table__cell--non-numeric">
+            {% if fixture.address %}
+                {% capture address_url %}http://maps.google.co.uk/?q={{fixture.address}}{% endcapture %}
+                {{fixture.location | link_to: address_url}}
+            {% elsif fixture.location == 'Home' %}
+                {{fixture.location | link_to: '/courses'}}
+            {% else %}
+                {{fixture.location}}
+            {% endif %}
+            </td>
             <td class="mdl-data-table__cell--non-numeric">
             {% if fixture.start %}
                 {% capture start %}{{ fixture.date | date: "%Y-%m-%d" }} {{fixture.start | divided_by:60 | minus:0.5 | round | remove:'.0'}}:{{fixture.start | modulo:60 | remove:'.0'}}:00{% endcapture %}

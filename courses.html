@@ -1,13 +1,21 @@
 ---
 permalink: /courses/
 layout: default
+map: http://umap.openstreetmap.fr/en/map/thh-courses_53729#15/51.4370/-0.2572
+# Secret edit link is http://umap.openstreetmap.fr/en/map/anonymous-edit/53729%3As8NfEGAdGB_qJjv37DFVAJsnCmg
 ---
 
 <h3>Thames Courses</h3>
 
-The Five Mile, Seven and a Half Mile and Second Sunday 5 courses start and finish by our clubhouse
-on Wimbledon Common <a href="/about/">("Where we Meet")</a>. The Ten Mile and Parkland Relays are
-in Richmond Park, inside Robin Hood Gate (a 5 minute walk from the clubhouse).
+<p>The Five Mile, Seven and a Half Mile and Second Sunday 5 courses start and finish by our clubhouse
+on Wimbledon Common <a href="/about/">("Where we Meet")</a>.</p>
+<p>The Ten Mile and Parkland Relays are in Richmond Park, inside Robin Hood Gate (a 5 minute walk
+from the clubhouse).</p>
+
+<iframe src="{{page.map}}" width="300" height="300">
+</iframe>
+<br/>
+<small><a href="{{page.map}}">Map of clubhouse and course locations.</a></small>
 
 {% for course in site.courses %}
 

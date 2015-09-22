@@ -53,11 +53,15 @@ DTSTART;TZID=Europe/London:{{ start | date: "%Y%m%dT%H%M%S" }}
 {% if fixture.end %}
 {% assign end_minute = fixture.end | modulo:60 | remove:'.0' %}
 {% assign end_hour = fixture.end | minus: end_minute | divided_by:60 | remove:'.0' %}
+{% else %}
+{% assign end_minute = start_minute %}
+{% assign end_hour = start_hour | plus: 1 | remove:'.0' %}
+{% endif %}
 {% capture end %}{{ fixture.date | date: "%Y-%m-%d" }} {{end_hour}}:{{end_minute}}:00{% endcapture %}
 DTEND;TZID=Europe/London:{{ end | date: "%Y%m%dT%H%M%S" }}
-{% endif %}
 {% else %}
 DTSTART;VALUE=DATE:{{ fixture.date | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{ fixture.date | date: "%Y%m%d" }}
 {% endif %}
 END:VEVENT
 {% endif %}

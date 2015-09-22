@@ -27,7 +27,8 @@
   title: Opening Handicap
   location: Home
   start: 14:30
-  
+  pioneers: yes
+
 - date: 2015-10-03
   title: National 4 and 6 stage relays
   location: Sutton Park
@@ -53,28 +54,226 @@
   location: Home
   start: 09:30
 
+- date: 2015-10-17
+  title: Kingston & Poly 5 Miles
+  location: Sheen Cross
+  address: Sawyer's Hill, Richmond, London TW10 5HR
+  start: 14:00
+  
+- date: 2015-10-17
+  title: Surrey Masters XC Championships (Women & Men M60+)
+  location: Petersham
+  start: 14:15
+  
+- date: 2015-10-17
+  title: Surrey Masters XC Championships (Men M40 & M50)
+  location: Petersham
+  start: 15:00
+
+- date: 2015-10-17
+  title: Milocarian AC
+  location: RMA Sandhurst
+  start: 14:00
+
+- date: 2015-10-24
+  title: SLH Mob Match
+  location: Coulsdon
+  start: 14:30
+  
+- date: 2015-10-31
+  title: ECCA National Cross Country Relays
+  location: Mansfield
+
 - date: 2015-11-07
-  title: Surrey League 2
+  title: Surrey League 2 (Ladies)
+  url: http://surreyleague.org/sll/
+  location: Esher
+  start: 12:00
+
+- date: 2015-11-07
+  title: Surrey League 2 (Men)
   url: http://surreyleague.org/slm/
+  location: Wimbledon Common (Belgrave Harriers)
+  start: 15:00
+
+- date: 2015-11-08
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+
+- date: 2015-11-14
+  title: London Champs (Ladies)
+  location: Parliament Hill
+  start: 13:15
+  
+- date: 2015-11-14
+  title: London Champs (Men)
+  location: Parliament Hill
+  start: 14:00
+
+- date: 2015-11-21
+  title: South of the Thames CCA 5 miles Team Race
+  location: Polesden Lacey
+  start: 14:00
+  
+- date: 2015-11-21
+  title: K&P 7 Miles Richmond Park
+  location: Sheen Cross
+  start: 14:00
+  
+- date: 2015-11-28
+  title: Ranelagh Mob Match
+  location: Home
+  start: 14:30
+  pioneers: yes
+  
+- date: 2015-12-05
+  title: Varsity Match
+  location: Home
+  pioneers: yes
+  start: 13:00
+  end: 16:00
+
+- date: 2015-12-12
+  title: SEAA Masters & Inter Counties Champs
+  location: Biggleswade
+  start: 11:00
+
+- date: 2015-12-12
+  title: Alumni Race
+  location: Home
+  start: 14:30
+  pioneers: yes
+  
+- date: 2015-12-13
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+
+- date: 2015-12-19
+  title: South of the Thames Championship Race
+  location: Tonbridge
+  start: 14:00
+  
+- date: 2015-12-23
+  title: Five Miles and Carols
+  start: 19:30
+
+- date: 2015-12-25
+  title: Lauriston RC 30min Paarlauf
+  location: Wimbledon
+  
+- date: 2016-01-02
+  title: Lauriston/HW 5-mile
+  location: Wimbledon Common
 
 - date: 2016-01-09
   title: Surrey County XC Championships
 
 - date: 2016-01-16
-  title: Surrey League 3
+  title: Surrey League 3 (Ladies)
+  url: http://surreyleague.org/sll/
+  location: Reigate
+  start: 12:00
+
+- date: 2016-01-16
+  title: Surrey League 3 (Men)
   url: http://surreyleague.org/slm/
+  start: 14:30
 
 - date: 2016-01-30
   title: Southern Cross Country Championships
   location: Parliament Hill	
 
 - date: 2016-02-13
-  title: Surrey League 4
+  title: Surrey League 4 (Ladies)
+  url: http://surreyleague.org/sll/
+  location: Richmond Park
+  start: 12:00
+
+- date: 2016-02-13
+  title: Surrey League 4 (Men)
   url: http://surreyleague.org/slm/
+  start: 15:00
+
+- date: 2015-02-14
+  title: Second Sunday 5 and Milocarians
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
 
 - date: 2016-02-27
   title: National XC Champs
+  location: Donnington Park
+  
+- date: 2016-03-05
+  title: Long Dist Hcap/ Annual dinner ?
+  location: Home
+  
+- date: 2016-03-12
+  title: Inter-Counties
+  
+- date: 2016-03-13
+  title: British Masters XC Champs
+  
+- title: Teddy Hall Relays
+  location: Oxford
+
+- title: Roman Road Race
+  location: Cambridge
+
+- date: 2016-03-19
+  title: 10 Mile Challenge and Handicap (Richmond Park) & AGM
+  location: Home
 
 - date: 2016-04-02
   title: Southern 12/6 stage relays
-  location: Milton Keynes	
+  location: Milton Keynes
+
+- date: 2016-04-16
+  title: National 6/12 stage relays
+  location: Sutton Park
+
+- date: 2016-04-24
+  title: London Marathon
+  location: London
+  
+- date: 2016-05-01
+  title: Ranelagh Richmond Half Marathon
+  location: Petersham
+  
+- date: 2016-05-07
+  title: Outlying Run
+  
+- date: 2016-05-14
+  title: Masters road relays sutton park
+  location: Sutton Park
+  
+- date: 2016-05-30
+  title: London 10000
+  location: London
+
+- date: 2016-06-01
+  title: Parkland Relays
+  location: Richmond Park
+  pioneers: yes
+
+- date: 2016-06-18
+  title: Summer Sports & handicap
+  location: Home
+
+- date: 2016-06-18
+  title: Summer Wine Party
+  
+- date: 2016-06-19
+  title: Richmond 10km
+  location: Petersham
+  
+- title: Harry Hawkes 10 incl CW handicap
+
+- title: Wedding Day
+
+- title: Wimbledon 5km (tbc)

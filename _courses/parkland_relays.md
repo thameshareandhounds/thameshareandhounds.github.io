@@ -5,6 +5,7 @@ excerpt: The Parkland Relays is run between local clubs on a Wednesday summer's 
 map: http://www.thameshareandhounds.org.uk/images/parklandrelays12.png
 old_map: http://www.thameshareandhounds.org.uk/images/parkland_course.jpg
 author: Chief Pioneer
+date: 2015-09-22
 ---
 
 {{page.excerpt}}

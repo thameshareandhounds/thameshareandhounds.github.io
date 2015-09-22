@@ -26,7 +26,7 @@ X-WR-TIMEZONE:Europe/London
 {% for season_hash in site.data.fixtures %}
 {% assign fixtures = season_hash[1] %}
 BEGIN:VEVENT
-UID:{{ fixture.date | date: "%Y%m%d" }}.{{ fixture.title | slugify }}@fixtures.thameshareandhounds.org.uk
+UID:{{ fixture.date | date: "%Y%m%d" }}.{{ fixture.title }}@fixtures.thameshareandhounds.org.uk
 ORGANIZER;CN="Thames Hare & Hounds":MAILTO:info@thameshareandhounds.org.uk
 {% if fixture.address %}
 LOCATION:{{ fixture.address }}

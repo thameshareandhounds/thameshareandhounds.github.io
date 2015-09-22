@@ -3,4 +3,4 @@
 _crlf: "\r\n"
 ---
 {% capture _newline %}
-{% endcapture %}{{content | split: _newline | compact | join: _crlf}}
+{% endcapture %}{{content | split: _newline | compact | join: layout._crlf}}

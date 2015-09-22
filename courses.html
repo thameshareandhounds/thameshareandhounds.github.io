@@ -23,7 +23,7 @@ from the clubhouse).</p>
 <p>{{course.excerpt}}</p>
 <ul>
 <li><a href="{{course.url}}">Description</a></li>
-<li><a href="{{course.map}}">Map</a></li>
+{% if course.map %}<li><a href="{{course.map}}">Map</a></li>{% endif %}
 </ul>
 
 {% endfor %}

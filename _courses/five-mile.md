@@ -1,6 +1,6 @@
 ---
 title: Five Mile Course
-layout: default
+layout: post
 ---
 
 The five mile course is used for the summer and opening handicaps and other inter-club races.

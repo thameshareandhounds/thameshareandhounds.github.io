@@ -35,14 +35,14 @@ BEGIN:VEVENT
 UID:{{ fixture.date | date: "%Y%m%d" }}.{{ fixture.title | slugify }}@fixtures.thameshareandhounds.org.uk
 ORGANIZER;CN="Thames Hare & Hounds":MAILTO:info@thameshareandhounds.org.uk
 {% if fixture.address %}
-LOCATION:"{{ fixture.address }}"
+LOCATION:"{{ fixture.address | replace:',','\,' }}"
 {% elsif fixture.location == 'Home' %}
-LOCATION:"Richard Evans Memorial Playing Fields, Roehampton Vale, London SW15 3PQ"
+LOCATION:"Richard Evans Memorial Playing Fields\, Roehampton Vale\, London SW15 3PQ"
 {% else %}
-LOCATION:"{{ fixture.location }}"
+LOCATION:"{{ fixture.location | replace:',','\,' }}"
 {% endif %}
-SUMMARY:{{ fixture.title }} ({{ fixture.location }})
-DESCRIPTION:{{ fixture.url }}
+SUMMARY:"{{ fixture.title }} ({{ fixture.location | replace:',','\,' }})"
+DESCRIPTION:"{{ fixture.url }}"
 CLASS:PUBLIC
 DTSTAMP:{{ fixture.date | date: "%Y%m%d" }}T000000
 {% if fixture.start %}

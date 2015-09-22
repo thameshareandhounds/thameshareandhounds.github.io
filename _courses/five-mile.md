@@ -7,7 +7,7 @@ date: 2004-10-13
 author: Chief Pioneer
 ---
 
-The five mile course is used for the summer and opening handicaps and other inter-club races.
+{{page.excerpt}} <a href="{{page.map}}">See map</a>.
 
 ### The Short Distance Course
 

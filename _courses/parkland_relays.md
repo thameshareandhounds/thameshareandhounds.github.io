@@ -8,7 +8,7 @@ author: Chief Pioneer
 date: 2015-09-22
 ---
 
-{{page.excerpt}}
+{{page.excerpt}} <a href="{{page.map}}">See map</a>.
 
 The relay start, changeover and finish is on the lower slopes of Spanker's Hill, above Robin Hood Gate and
 close to Pen Ponds car park.

@@ -3,6 +3,8 @@ title: Five Mile Course
 layout: post
 excerpt: The five mile course is used for the summer and opening handicaps and other inter-club races.
 map: http://www.thameshareandhounds.org.uk/images/THH_5_mile.jpg
+date: 2004-10-13
+author: Chief Pioneer
 ---
 
 The five mile course is used for the summer and opening handicaps and other inter-club races.

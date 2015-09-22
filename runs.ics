@@ -52,7 +52,7 @@ DTEND;TZID=Europe/London:{{ end | date: "%Y%m%dT%H%M%S" }}
 {% if run.rrule %}
 RRULE:{{run.rrule}}
 {% else %}
-RRULE:FREQ=WEEKLY;WKST=MO;BYDAY={% for day in run.days %}{{day | slice: 0, 2 | upcase}}{% unless forloop.last %},{% endunless %}{% endfor %}
+RRULE:FREQ=WEEKLY;WKST=MO;BYDAY={% for day in run.days %}{{day | truncate: 5 | remove: '.' | upcase}}{% unless forloop.last %},{% endunless %}{% endfor %}
 {% endif %}
 {% if run.exclude %}
 EXDATE;VALUE=DATE:{% for exdate in run.exclude %}{{exdate | date: "%Y%m%d" }}{% unless forloop.last %},{% endunless %}{% endfor %}

@@ -1,7 +1,7 @@
 ---
 # Jekyll layout to remove empty lines and replace newlines with CRLF
-_crlf: "\r"
+_cr: "\r"
 ---
 {% capture _newline %}
-{% endcapture %}{% assign _lines = content | split: _newline %}{% for _line in _lines %}{% if _line %}{{_line}}{{_cr}}
+{% endcapture %}{% assign _lines = content | split: _newline %}{% for _line in _lines %}{% if _line != "" %}{{_line}}{{_cr}}
 {% endif %}{% endfor %}

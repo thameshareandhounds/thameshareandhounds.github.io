@@ -9,6 +9,8 @@ author: Chief Pioneer
 
 The five mile course is used for the summer and opening handicaps and other inter-club races.
 
+### The Short Distance Course
+
 Start at the foot of the small slope near the clubhouse door and run up the
 right hand edge of the field. A little before the field corner drift right through a
 gap in the hedge to join a track. Immediately fork left and then fork left again

@@ -4,6 +4,7 @@ layout: post
 excerpt: The Second Sunday 5 is a low key, five miler on Wimbledon running every second Sunday of every month at 9.30am.
 author: Chief Pioneer
 date: 2015-09-22
+map: http://snippets.mapmycdn.com/routes/view/embedded/652805496?map_mode=TERRAIN
 ---
 
 {{page.excerpt}}

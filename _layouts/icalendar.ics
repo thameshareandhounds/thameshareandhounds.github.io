@@ -1,4 +1,6 @@
 ---
 # Jekyll layout to remove empty lines and replace newlines with CRLF
+_newline: "\n"
+_crlf: "\r\n"
 ---
-{% capture _content %}{{ content }}{% endcapture %}{{content | split:"\n" | join: "\r\n"}}{{"\r"}}
+{% capture _content %}{{ content }}{% endcapture %}{{content | split:layout._newline | join:_layout:_crlf}}

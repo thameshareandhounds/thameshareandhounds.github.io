@@ -3,5 +3,5 @@
 _cr: "\r"
 ---
 {% capture _newline %}
-{% endcapture %}{% assign _lines = content | rstrip | split: _newline %}{% for _line in _lines %}{% if _line != "" %}{{_line}}{{page._cr}}
-{% endif %}{% endfor %}
+{% endcapture %}{% assign _lines = content | rstrip | split: _newline %}{% for _line in _lines %}{% if _line != "" %}{{_line}}{{page._cr}}{% unless forloop.last %}
+{% endunless %}{% endif %}{% endfor %}

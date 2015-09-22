@@ -35,12 +35,14 @@
 
 - date: 2015-10-10
   title: Surrey League 1 Ladies
-  location: Wallington
+  url: http://surreyleague.org/sll/
+  location: Roundshaw Common
   start: 12:00
 
 - date: 2015-10-10
   title: Surrey League 1 Men
   location: Wimbledon Common (Windmilers)
+  url: http://surreyleague.org/slm/
   address: Sunset Rd, London SW19 4UL
   start: 15:00
   pioneers: yes
@@ -53,12 +55,14 @@
 
 - date: 2015-11-07
   title: Surrey League 2
+  url: http://surreyleague.org/slm/
 
 - date: 2016-01-09
   title: Surrey County XC Championships
 
 - date: 2016-01-16
   title: Surrey League 3
+  url: http://surreyleague.org/slm/
 
 - date: 2016-01-30
   title: Southern Cross Country Championships
@@ -66,6 +70,7 @@
 
 - date: 2016-02-13
   title: Surrey League 4
+  url: http://surreyleague.org/slm/
 
 - date: 2016-02-27
   title: National XC Champs

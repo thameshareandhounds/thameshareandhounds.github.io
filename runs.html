@@ -9,7 +9,7 @@ permalink: /regular_runs/
 </p>
 
 <table border>
-{% assign weekdays = "Monday Tuesday Wednesday Thursday Friday Saturday Sunday" | split %}
+{% assign weekdays = "Monday Tuesday Wednesday Thursday Friday Saturday Sunday" | split: ' ' %}
 {% for weekday in weekdays %}
   {% assign rowspan = 0 %}
   {% for run in site.data.regular_runs %}

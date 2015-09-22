@@ -3,4 +3,4 @@
 _newline: "\n"
 _crlf: "\r\n"
 ---
-{% capture _content %}{{ content }}{% endcapture %}{{content | split:layout._newline | join:_layout:_crlf}}
+{% capture _content %}{{ content }}{% endcapture %}{{content | split:layout._newline | join:layout._crlf}}

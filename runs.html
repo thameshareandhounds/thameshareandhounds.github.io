@@ -3,75 +3,35 @@ layout: page
 title: Regular Runs
 permalink: /regular_runs/
 ---
-Thames Hare &amp; Hounds regular training runs. This list is maintained by Nic Gould, if you have a run you would like to add then email to [mail@nicgould.co.uk](mailto:mail@nicgould.co.uk).
+<p>
+  Thames Hare &amp; Hounds regular training runs. This list is maintained by Nic Gould; if you have
+  a run you would like to add then email <a href="mailto:mail@nicgould.co.uk">mail@nicgould.co.uk</a>.
+</p>
 
 <table border>
+{% assign weekdays = "Monday Tuesday Wednesday Thursday Friday Saturday Sunday" | split %}
+{% for weekday in weekdays %}
+  {% assign rowspan = 0 %}
+  {% for run in site.data.regular_runs %}
+    {% for day in run.days %}
+      {% if day == weekday %}
+        {% assign rowspan = rowspan | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% for run in site.data.regular_runs %}
+  {% for day in run.days %}
+  {% if day == weekday %}
   <tr>
-    <td rowspan="2">Monday</td>
-    <td>Wimbledon Common, lunch time.</td>
-    <td>40-50 mins easy run.</td>
-    <td>Andy Robinson andy@reportlab.com</td>
-  </tr>
-  <tr>
-    <td>Primrose Hill, 12.20pm.</td>
-    <td>Hill Session.</td>
-    <td>Simon Molden simon@scmolden.co.uk</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Tuesday</td>
-    <td>Outside Slaughter and May, One Bunhill Row, EC1Y 8YY,12.30pm.</td>
-    <td>Intervals on Tuesdays and Thursdays along Regent's Canal; steady runs on other days; we keep the sessions quite quick and dirty so people can be back at their desks not too late.</td>
-    <td>Anthony Doolittle tony_doolittle@hotmail.com</td>
-  </tr>
-  <tr>
-
-    <td>Kingsmeadow, 7.30pm.</td>
-    <td>Track/road interval session. Alternates between track and road sessions in the winter, track every week in the summer.</td>
-    <td>Will Cockerell willcockerell@gmail.com</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Wednesday</td>
-    <td>Wimbledon Common, lunch time.</td>
-    <td>40-50 mins easy run.</td>
-    <td>Andy Robinson andy@reportlab.com</td>
-  </tr>
-  <tr>
-    <td>TH&H Clubhouse, 7.30pm.</td>
-    <td>Regular club run of roughly five miles with drinks and food afterwards at The Telegraph.</td>
-    <td>Matt Jones
-m4ttjones@yahoo.co.uk</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Thursday</td>
-    <td>Wimbledon Common, 10.30am.</td>
-    <td>‘Running Mums’ interval sessions on the Common, coffee afterwards in the cafe. For mums and non-mums alike, bring your running buggy if you like.</td>
-    <td>Annette Gould annettejchase@hotmail.com</td>
-  </tr>
-  <tr>
-    <td>Outside Slaughter and May, One Bunhill Row, EC1Y 8YY,12.30pm.</td>
-    <td>Intervals on Tuesdays and Thursdays along Regent's Canal; steady runs on other days; we keep the sessions quite quick and dirty so people can be back at their desks not too late.</td>
-    <td>Anthony Doolittle tony_doolittle@hotmail.com</td>
-  </tr>
-  <tr>
-    <td>Friday</td>
-    <td>Wimbledon Common, lunch time.</td>
-    <td>40-50 mins easy run.</td>
-    <td>Andy Robinson andy@reportlab.com</td>
-  </tr>
-  <tr>
-    <td>Saturday</td>
-    <td>Wimbledon Parkrun, Wimbledon Common 9am.</td>
-    <td>5km timed run with coffee afterwards in the Windmill Cafe.</td>
-    <td>Nic Gould
-mail@nicgould.co.uk</td>
-  </tr>
-  <tr>
-    <td>Sunday</td>
-    <td>Second Sunday Five, 9.30am.</td>
-    <td>Second Sunday of each month we host this informal five mile race. Come along to run and/or help out.</td>
-    <td>David Symons
-dssymons@hotmail.com</td>
+  {% unless rowspan == 0 %}
+    <td rowspan="{{rowspan}}">{{day}}</td>
+    {% assign rowspan = 0 %}
+  {% endunless %}
+  {% assign start_minute = run.start | modulo:60 | remove:'.0' %}
+  {% assign start_hour = run.start | minus: start_minute | divided_by:60 | remove:'.0' %}
+  {% capture start %}{{ run.first | date: "%Y-%m-%d" }} {{start_hour}}:{{start_minute}}:00{% endcapture %}
+    <td>{% if run.description %}{% if run.url %}<a href="{{run.url}}">{{run.summary}}</a>{% else %}{{run.summary}}{% endif %}, {% endif %}{{run.location}}, {{start | date: "%-I:%M %p"}}.</td>
+    <td>{% if run.description %}{{run.description}}{% else %}{{run.summary}}{% endif %}</td>
+    <td>{{run.organizer}} {{run.email}}</td>
   </tr>
 </table>
-
-

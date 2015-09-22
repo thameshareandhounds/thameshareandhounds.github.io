@@ -1,0 +1,62 @@
+---
+layout: icalendar
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Thames Hare and Hounds//NONSGML Training//EN
+X-WR-CALNAME:TH&H Training
+X-ORIGINAL-URL:{{site.url}}{{page.url}}
+X-WR-CALDESC:TH&H Training
+X-WR-TIMEZONE:Europe/London
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T010000
+TZNAME:GMT+01:00
+TZOFFSETTO:+0100
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T020000
+TZNAME:GMT
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+{% for run in site.data.regular_runs %}
+BEGIN:VEVENT
+UID:{{ run.location | slugify }}.{{ run.title | slugify }}@runs.thameshareandhounds.org.uk
+ORGANIZER;CN="{{run.organizer}}":MAILTO:{{run.email}}
+LOCATION:"{{ run.location | replace:',','\,' }}"
+SUMMARY:"{{ run.title }}{% if run.location %} ({{ run.location | replace:',','\,' }}){% endif %}"
+DESCRIPTION:"{% if run.url %}{{ run.url }} {% endif %}{{run.description}}"
+CLASS:PUBLIC
+DTSTAMP:{{ run.first | date: "%Y%m%d" }}T000000
+{% assign start_minute = run.start | modulo:60 | remove:'.0' %}
+{% assign start_hour = run.start | minus: start_minute | divided_by:60 | remove:'.0' %}
+{% capture start %}{{ run.first | date: "%Y-%m-%d" }} {{start_hour}}:{{start_minute}}:00{% endcapture %}
+DTSTART;TZID=Europe/London:{{ start | date: "%Y%m%dT%H%M%S" }}
+{% if run.end %}
+{% assign end_minute = run.end | modulo:60 | remove:'.0' %}
+{% assign end_hour = run.end | minus: end_minute | divided_by:60 | remove:'.0' %}
+{% else %}
+{% assign end_minute = start_minute %}
+{% assign end_hour = start_hour | plus: 1 | remove:'.0' %}
+{% endif %}
+{% capture end %}{{ run.first | date: "%Y-%m-%d" }} {{end_hour}}:{{end_minute}}:00{% endcapture %}
+DTEND;TZID=Europe/London:{{ end | date: "%Y%m%dT%H%M%S" }}
+{% if run.rrule %}
+RRULE:{{run.rrule}}
+{% else %}
+RRULE:FREQ=WEEKLY;WKST=MO;BYDAY={% for day in run.days %}{{day | slice: 0, 2 | upcase}}{% unless forloop.last %},{% endunless %}{% endfor %}
+{% endif %}
+{% if run.exclude %}
+EXDATE;VALUE=DATE:{% for exdate in run.exclude %}{{exdate | date: "%Y%m%d" }}{% unless forloop.last %},{% endunless %}{% endfor %}
+{% endif %}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR

@@ -26,6 +26,7 @@ layout: default
     <tbody class=index>
 {% assign fixtures = season_hash[1] %}
 {% for fixture in fixtures %}
+    {% if fixture.date %}
     {% assign current_month = fixture.date | date: "%B %Y" %}
     {% if current_month != month %}
         <tr>
@@ -33,8 +34,10 @@ layout: default
         </tr>
         {% assign month = current_month %}
     {% endif %}
+    {% endif %}
         <tr>
             <td class="mdl-data-table__cell--non-numeric">
+                {% if fixture.date %}
                 {{fixture.date | date: "%a"}}
                 {% assign day = fixture.date | date: "%-d" %}
                 {% case day %}
@@ -44,6 +47,9 @@ layout: default
                     {% else %}{{ day }}th
                  {% endcase %}
                 {{fixture.date | date: "%b"}}
+                {% else %}
+                TBA
+                {% endif %}
             </td>
             <td class="mdl-data-table__cell--non-numeric">
             {% if fixture.pioneers %}

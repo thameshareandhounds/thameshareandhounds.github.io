@@ -1,0 +1,16 @@
+---
+permalink: /courses/
+layout: default
+---
+
+<h3>Thames Courses</h3>
+
+{% for course in site.courses %}
+
+<h4>{{course.title}}</h4>
+<p>{{course.excerpt}}</p>
+<ul>
+<li><a href="{{course.url}}">Description</a></li>
+<li><a href="{{course.map}}">Map</a></li>
+</ul>
+<% endfor %}

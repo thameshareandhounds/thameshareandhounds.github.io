@@ -45,8 +45,7 @@ layout: default
             <td class="mdl-data-table__cell--non-numeric">{{fixture.location}}</td>
             <td class="mdl-data-table__cell--non-numeric">
             {% if fixture.start %}
-                {% capture start %}{{ fixture.date | date: "%Y-%m-%d" }} {{fixture.start}}:00{% endcapture %}
-                {{start}}
+                {% capture start %}{{ fixture.date | date: "%Y-%m-%d" }} {{fixture.start | round | divided_by:60}}:{{fixture.start | round | modulo:60}}:00{% endcapture %}
                 {{start | date: "%I:%M %p"}}
             {% endif %}
             </td>

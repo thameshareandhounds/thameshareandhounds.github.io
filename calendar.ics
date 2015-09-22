@@ -25,15 +25,8 @@ END:VTIMEZONE
 X-WR-TIMEZONE:Europe/London
 {% for season_hash in site.data.fixtures %}
 {% assign fixtures = season_hash[1] %}
-{% for fixture in fixtures %}
-{% if fixture.date == last_date %}
-  {% assign sub_uid = sub_uid + 1 %}
-{% else %}
-  {% assign sub_uid = 0 %}
-  {% assign last_date = fixture.date %}
-{% endif %}
 BEGIN:VEVENT
-UID:{{ fixture.date | date: "%Y%m%d" }}.{{sub_uid}}@fixtures.thameshareandhounds.org.uk
+UID:{{ fixture.date | date: "%Y%m%d" }}.{{ fixture.title | slugify }}@fixtures.thameshareandhounds.org.uk
 ORGANIZER;CN="Thames Hare & Hounds":MAILTO:info@thameshareandhounds.org.uk
 {% if fixture.address %}
 LOCATION:{{ fixture.address }}

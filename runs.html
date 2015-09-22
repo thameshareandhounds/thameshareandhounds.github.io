@@ -34,4 +34,7 @@ permalink: /regular_runs/
     <td>{% if run.description %}{{run.description}}{% else %}{{run.summary}}{% endif %}</td>
     <td>{{run.organizer}} {{run.email}}</td>
   </tr>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 </table>

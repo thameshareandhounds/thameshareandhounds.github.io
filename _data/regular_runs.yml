@@ -2,7 +2,7 @@
   first: 2015-09-21
   location: Wimbledon Common
   start: 12:00
-  summary: Easy run
+  title: Easy run
   description: 40-50 mins easy run
   organizer: Andy Robinson
   email: andy@reportlab.com
@@ -11,7 +11,7 @@
   first: 2015-09-21
   location: Slaughter and May, One Bunhill Row, EC1Y 8YY
   start: 12:30
-  summary: Steady run
+  title: Steady run
   description: Steady run; we keep the sessions quite quick and dirty so people can be back at their desks not too late.
   organizer: Anthony Doolittle
   email: tony_doolittle@hotmail.com
@@ -20,7 +20,7 @@
   first: 2015-09-21
   location: Primrose Hill
   start: 12:20
-  summary: Hill Session
+  title: Hill Session
   organizer: Simon Molden
   email: simon@scmolden.co.uk
 
@@ -28,7 +28,7 @@
   first: 2015-09-22
   location: Slaughter and May, One Bunhill Row, EC1Y 8YY
   start: 12:30
-  summary: Intervals
+  title: Intervals
   description: Intervals along Regent's Canal; we keep the sessions quite quick and dirty so people can be back at their desks not too late.
   organizer: Anthony Doolittle
   email: tony_doolittle@hotmail.com
@@ -37,7 +37,7 @@
   first: 2015-09-22
   location: Kingsmeadow track
   start: 19:30
-  summary: Track/road interval session
+  title: Track/road interval session
   description: Alternates between track and road sessions in the winter, track every week in the summer.
   organizer: Will Cockerell
   email: willcockerell@gmail.com
@@ -48,7 +48,7 @@
   location: TH&H Clubhouse
   start: 19:30
   end: 22:00
-  summary: Club run and social
+  title: Club run and social
   description: Regular club run of roughly five miles with drinks and food afterwards at The Telegraph.
   organizer: Matt Jones
   email: m4ttjones@yahoo.co.uk
@@ -57,7 +57,7 @@
   first: 2015-09-24
   location: Wimbledon Common
   start: 10:30
-  summary: ‘Running Mums’ intervals and coffee
+  title: ‘Running Mums’ intervals and coffee
   description: ‘Running Mums’ interval sessions on the Common, coffee afterwards in the cafe. For mums and non-mums alike, bring your running buggy if you like.
   organizer: Annette Gould
   email: annettejchase@hotmail.com
@@ -66,7 +66,7 @@
   first: 2015-09-26
   location: Wimbledon Common
   start: 09:00
-  summary: Wimbledon Parkrun
+  title: Wimbledon Parkrun
   description: 5km timed run with coffee afterwards in the Windmill Cafe.
   url: http://www.parkrun.org.uk/wimbledon/
   organizer: Nic Gould
@@ -77,7 +77,7 @@
   location: Wimbledon Common
   rrule: FREQ=MONTHLY;BYDAY=SU;BYSETPOS=2
   start: 09:30
-  summary: Second Sunday Five
+  title: Second Sunday Five
   description: Second Sunday of each month we host this informal five mile race. Come along to run and/or help out.
   url: http://www.secondsunday5.com/
   organizer: David Symons

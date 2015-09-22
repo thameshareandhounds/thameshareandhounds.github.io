@@ -27,8 +27,8 @@ permalink: /regular_runs/
   {% assign start_minute = run.start | modulo:60 | remove:'.0' %}
   {% assign start_hour = run.start | minus: start_minute | divided_by:60 | remove:'.0' %}
   {% capture start %}{{ run.first | date: "%Y-%m-%d" }} {{start_hour}}:{{start_minute}}:00{% endcapture %}
-  {% capture summary %}{% if run.description %}{% if run.url %}<a href="{{run.url}}">{{run.summary}}</a>{% else %}{{run.summary}}{% endif %}, {% endif %}{{run.location}}, {{start | date: "%-I:%M %p"}}.{% endcapture %}
-  {% capture description %}{% if run.description %}{{run.description}}{% else %}{{run.summary}}{% endif %}{% endcapture %}
+  {% capture summary %}{% if run.description %}{% if run.url %}<a href="{{run.url}}">{{run.title}}</a>{% else %}{{run.title}}{% endif %}, {% endif %}{{run.location}}, {{start | date: "%-I:%M %p"}}.{% endcapture %}
+  {% capture description %}{% if run.description %}{{run.description}}{% else %}{{run.title}}{% endif %}{% endcapture %}
   {% capture organizer %}{{run.organizer}} {{run.email}}{% endcapture %}
   {% for day in run.days %}
   {% if day == weekday %}

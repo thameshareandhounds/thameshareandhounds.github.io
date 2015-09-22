@@ -3,7 +3,12 @@ layout: none
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:{{site.url}}{{page.url}}
+PRODID:-//Thames Hare and Hounds//NONSGML Fixtures//EN
+X-WR-CALNAME:TH&H Fixtures
+X-ORIGINAL-URL:{{site.url}}{{page.url}}
+X-WR-CALDESC:TH&H Fixtures
+X-WR-TIMEZONE:Europe/London
+CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VTIMEZONE
 TZID:Europe/London
@@ -22,7 +27,6 @@ TZNAME:GMT
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
-X-WR-TIMEZONE:Europe/London
 {% for season_hash in site.data.fixtures %}
 {% assign fixtures = season_hash[1] %}
 {% for fixture in fixtures %}
@@ -53,7 +57,7 @@ DTSTART;TZID=Europe/London:{{ start | date: "%Y%m%dT%H%M%S" }}
 DTEND;TZID=Europe/London:{{ end | date: "%Y%m%dT%H%M%S" }}
 {% endif %}
 {% else %}
-DTSTART:{{ fixture.date | date: "%Y%m%d" }}
+DTSTART;VALUE=DATE:{{ fixture.date | date: "%Y%m%d" }}
 {% endif %}
 END:VEVENT
 {% endif %}

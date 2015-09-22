@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: icalendar
 ---
 BEGIN:VCALENDAR
 VERSION:2.0

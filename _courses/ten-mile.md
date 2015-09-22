@@ -7,7 +7,7 @@ date: 2004-03-20
 author: Chief Pioneer
 ---
 
-The ten mile course is used for our summer handicap.
+{{page.excerpt}} <a href="{{page.map}}">See map</a>.
 
 ### The Ten Mile Course – Richmond Park
 

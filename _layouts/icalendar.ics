@@ -3,4 +3,4 @@
 _newline: "\n"
 _crlf: "\r\n"
 ---
-{{content | split:_newline | join:_newline}}
+{{content}}

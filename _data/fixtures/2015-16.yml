@@ -1,19 +1,55 @@
 - date: 2015-09-05
   title: Surrey Road Relays
   location: Wimbledon Park
+  address: Wimbledon Park Athletics Track, Wimbledon Park, Home Park Road, London SW19 8AU
   start: 12:00
   end: 16:00
 
+- date: 2015-09-13
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+
 - date: 2015-09-19
   title: SEAA Relays Women
-  location: Rushmoor Arena, Aldershot
+  url: http://seaa.org.uk/events/road-running.html
+  location: Aldershot
+  address: Rushmoor Arena, Rushmoor Rd, Aldershot, Hampshire GU11 1PZ
 
 - date: 2015-09-20
   title: SEAA Relays Men
-  location: Rushmoor Arena, Aldershot
+  url: http://seaa.org.uk/events/road-running.html
+  location: Aldershot
+  address: Rushmoor Arena, Rushmoor Rd, Aldershot, Hampshire GU11 1PZ
+
+- date: 2015-09-26
+  title: Opening Handicap
+  location: Home
+  start: 14:30
+  
+- date: 2015-10-03
+  title: National 4 and 6 stage relays
+  location: Sutton Park
+  address: Sutton Coldfield B73 6LH
 
 - date: 2015-10-10
-  title: Surrey League 1
+  title: Surrey League 1 Ladies
+  location: Wallington
+  start: 12:00
+
+- date: 2015-10-10
+  title: Surrey League 1 Men
+  location: Wimbledon Common (Windmilers)
+  address: Sunset Rd, London SW19 4UL
+  start: 15:00
+  pioneers: yes
+
+- date: 2015-10-11
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
 
 - date: 2015-11-07
   title: Surrey League 2

@@ -20,5 +20,5 @@ permalink: /
 
 Please use the <a href="http://forum.thh.run/">forum</a> to give us feedback on the site.
 
-<h2>Upcoming events</h2>
-<iframe src="https://www.google.com/calendar/embed?title=TH%26H%20Diary&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=6ohhd97kchnlsu9krcgj11gj53tmb74v%40import.calendar.google.com&amp;color=%23000000&amp;src=pvg9cp9i5qa2oq22ctr5lrh4foubns7q%40import.calendar.google.com&amp;color=%23000000&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="800" height="400" frameborder="0" scrolling="no"></iframe>
+<h2>What's next?</h2>
+<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=400&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=pvg9cp9i5qa2oq22ctr5lrh4foubns7q%40import.calendar.google.com&amp;color=%23000000&amp;src=6k9ncnfdapjvsut3obrl9egk48hkcrsq%40import.calendar.google.com&amp;color=%23434343&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="800" height="400" frameborder="0" scrolling="no"></iframe>

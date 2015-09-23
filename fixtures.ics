@@ -33,17 +33,17 @@ END:VTIMEZONE
 {% if fixture.date %}
 BEGIN:VEVENT
 UID:{{ fixture.date | date: "%Y%m%d" }}.{{ fixture.title | slugify }}@fixtures.thameshareandhounds.org.uk
-ORGANIZER;CN="Thames Hare & Hounds":MAILTO:info@thameshareandhounds.org.uk
+ORGANIZER;CN=Thames Hare & Hounds:MAILTO:info@thameshareandhounds.org.uk
 {% if fixture.address %}
-LOCATION:"{{ fixture.address | replace:',','\,' }}"
+LOCATION:{{ fixture.address | replace:',','\,' }}
 {% elsif fixture.location == 'Home' %}
-LOCATION:"Richard Evans Memorial Playing Fields\, Roehampton Vale\, London SW15 3PQ"
+LOCATION:Richard Evans Memorial Playing Fields\, Roehampton Vale\, London SW15 3PQ
 {% else %}
-LOCATION:"{{ fixture.location | replace:',','\,' }}"
+LOCATION:{{ fixture.location | replace:',','\,' }}
 {% endif %}
-SUMMARY:"{{ fixture.title }}{% if fixture.location %} ({{ fixture.location | replace:',','\,' }}){% endif %}"
+SUMMARY:{{ fixture.title }}{% if fixture.location %} ({{ fixture.location | replace:',','\,' }}){% endif %}
 {% if fixture.url %}
-DESCRIPTION:"{{ fixture.url }}"
+DESCRIPTION:{{ fixture.url }}
 {% endif %}
 CLASS:PUBLIC
 DTSTAMP:{{ fixture.date | date: "%Y%m%d" }}T000000

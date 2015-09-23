@@ -30,10 +30,10 @@ END:VTIMEZONE
 {% for run in site.data.regular_runs %}
 BEGIN:VEVENT
 UID:{{ run.location | slugify }}.{{ run.title | slugify }}@runs.thameshareandhounds.org.uk
-ORGANIZER;CN="{{run.organizer}}":MAILTO:{{run.email}}
-LOCATION:"{{ run.location | replace:',','\,' }}"
-SUMMARY:"{{ run.title }}{% if run.location %} ({{ run.location | replace:',','\,' }}){% endif %}"
-DESCRIPTION:"{% if run.url %}{{ run.url }} {% endif %}{{run.description | replace:',','\,' | replace:';','\;'}}"
+ORGANIZER;CN={{run.organizer}}:MAILTO:{{run.email}}
+LOCATION:{{ run.location | replace:',','\,' }}
+SUMMARY:{{ run.title }}{% if run.location %} ({{ run.location | replace:',','\,' }}){% endif %}
+DESCRIPTION:{% if run.url %}{{ run.url }} {% endif %}{{run.description | replace:',','\,' | replace:';','\;'}}
 CLASS:PUBLIC
 DTSTAMP:{{ run.first | date: "%Y%m%d" }}T000000
 {% assign start_minute = run.start | modulo:60 | remove:'.0' %}

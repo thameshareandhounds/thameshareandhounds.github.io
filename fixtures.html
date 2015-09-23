@@ -27,28 +27,31 @@ layout: default
 {% assign fixtures = season_hash[1] %}
 {% for fixture in fixtures %}
     {% if fixture.date %}
-    {% assign current_month = fixture.date | date: "%B %Y" %}
-    {% if current_month != month %}
-        <tr>
-            <th colspan="4" class="mdl-data-table__cell--non-numeric">{{current_month}}</th>
-        </tr>
-        {% assign month = current_month %}
-    {% endif %}
+        {% assign current_month = fixture.date | date: "%B %Y" %}
+        {% if current_month != last_month %}
+            <tr>
+                <th colspan="4" class="mdl-data-table__cell--non-numeric">{{current_month}}</th>
+            </tr>
+            {% assign last_month = current_month %}
+        {% endif %}
     {% endif %}
         <tr>
             <td class="mdl-data-table__cell--non-numeric">
                 {% if fixture.date %}
-                {{fixture.date | date: "%a"}}
-                {% assign day = fixture.date | date: "%-d" %}
-                {% case day %}
-                    {% when '1' or '21' or '31' %}{{ day }}st
-                    {% when '2' or '22' %}{{ day }}nd
-                    {% when '3' or '23' %}{{ day }}rd
-                    {% else %}{{ day }}th
-                 {% endcase %}
-                {{fixture.date | date: "%b"}}
+                    {% if fixture.date != last_date %}
+                        {{fixture.date | date: "%a"}}
+                        {% assign day = fixture.date | date: "%-d" %}
+                        {% case day %}
+                            {% when '1' or '21' or '31' %}{{ day }}st
+                            {% when '2' or '22' %}{{ day }}nd
+                            {% when '3' or '23' %}{{ day }}rd
+                            {% else %}{{ day }}th
+                         {% endcase %}
+                        {{fixture.date | date: "%b"}}
+                        {% assign last_date = fixture.date %}
+                    {% endif %}
                 {% else %}
-                TBA
+                    TBA
                 {% endif %}
             </td>
             <td class="mdl-data-table__cell--non-numeric">

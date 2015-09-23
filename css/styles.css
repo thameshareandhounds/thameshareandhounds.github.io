@@ -113,3 +113,10 @@ footer {
   border: 2px black solid;
   margin-bottom: 50px;
 }
+
+
+.thh-main-content img {
+    max-width: 100%;
+    height: auto; 
+}
+

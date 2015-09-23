@@ -10,34 +10,51 @@
   url: http://secondsunday5.com
   location: Home
   start: 09:30
+  pioneers: yes
 
 - date: 2015-09-19
-  title: SEAA Relays Women
+  title: Ladies' Southern Counties 4-Stage Relays, 4km
   url: http://seaa.org.uk/events/road-running.html
   location: Aldershot
   address: Rushmoor Arena, Rushmoor Rd, Aldershot, Hampshire GU11 1PZ
+  start: 16:05
 
 - date: 2015-09-20
-  title: SEAA Relays Men
+  title: Men's Southern Counties 6-Stage Relays, 6km (Veterans)
   url: http://seaa.org.uk/events/road-running.html
   location: Aldershot
   address: Rushmoor Arena, Rushmoor Rd, Aldershot, Hampshire GU11 1PZ
+  start: 12:30
+
+- date: 2015-09-20
+  title: Men's Southern Counties 6-Stage Relays, 6km (Seniors)
+  url: http://seaa.org.uk/events/road-running.html
+  location: Aldershot
+  address: Rushmoor Arena, Rushmoor Rd, Aldershot, Hampshire GU11 1PZ
+  start: 14:30
 
 - date: 2015-09-26
-  title: Opening Handicap
+  title: Opening short distance 5 mile handicap
   location: Home
   start: 14:30
   pioneers: yes
 
 - date: 2015-10-03
-  title: National 4 and 6 stage relays
+  title: National 4-Stage Relays – Ladies
+  start: 12:00
+  location: Sutton Park
+  address: Sutton Coldfield B73 6LH
+
+- date: 2015-10-03
+  title: National 6­Stage Relays – Men
+  start: 13:30
   location: Sutton Park
   address: Sutton Coldfield B73 6LH
 
 - date: 2015-10-10
   title: Surrey League 1 Ladies
   url: http://surreyleague.org/sll/
-  location: Roundshaw Common
+  location: Roundshaw Common, Wallington
   start: 12:00
 
 - date: 2015-10-10
@@ -53,9 +70,10 @@
   url: http://secondsunday5.com
   location: Home
   start: 09:30
+  pioneers: yes
 
 - date: 2015-10-17
-  title: Kingston & Poly 5 Miles
+  title: Kingston & Poly 6 Miles
   location: Sheen Cross
   address: Sawyer's Hill, Richmond, London TW10 5HR
   start: 14:00
@@ -71,12 +89,12 @@
   start: 15:00
 
 - date: 2015-10-17
-  title: Milocarian AC
+  title: Milocarian AC 6 Miles
   location: RMA Sandhurst
   start: 14:00
 
 - date: 2015-10-24
-  title: SLH Mob Match
+  title: SLH Mob Match 7½ miles
   location: Coulsdon
   start: 14:30
   
@@ -96,21 +114,22 @@
   location: Wimbledon Common (Belgrave Harriers)
   start: 15:00
 
-- date: 2015-11-08
-  title: Second Sunday 5
-  url: http://secondsunday5.com
-  location: Home
-  start: 09:30
-
 - date: 2015-11-14
-  title: London Champs (Ladies)
+  title: London Championships (Ladies 6km)
   location: Parliament Hill
   start: 13:15
   
 - date: 2015-11-14
-  title: London Champs (Men)
+  title: London Championships (Men 10km)
   location: Parliament Hill
   start: 14:00
+
+- date: 2015-11-15
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
 
 - date: 2015-11-21
   title: South of the Thames CCA 5 miles Team Race
@@ -123,17 +142,28 @@
   start: 14:00
   
 - date: 2015-11-28
-  title: Ranelagh Mob Match
+  title: Mob Match vs. Ranelagh Harriers
   location: Home
   start: 14:30
   pioneers: yes
   
 - date: 2015-12-05
-  title: Varsity Match
+  title: Varsity Match Old Blues' Race
   location: Home
   pioneers: yes
   start: 13:00
-  end: 16:00
+
+- date: 2015-12-05
+  title: Varsity Match Ladies' Race
+  location: Home
+  pioneers: yes
+  start: 14:00
+
+- date: 2015-12-05
+  title: Varsity Match Men's Race
+  location: Home
+  pioneers: yes
+  start: 14:45
 
 - date: 2015-12-12
   title: SEAA Masters & Inter Counties Champs
@@ -151,6 +181,7 @@
   url: http://secondsunday5.com
   location: Home
   start: 09:30
+  pioneers: yes
 
 - date: 2015-12-19
   title: South of the Thames Championship Race
@@ -159,18 +190,34 @@
   
 - date: 2015-12-23
   title: Five Miles and Carols
-  start: 19:30
+  start: 19:00
 
 - date: 2015-12-25
   title: Lauriston RC 30min Paarlauf
-  location: Wimbledon
-  
+  location: Lauriston Cottage
+  start: 11:00
+
 - date: 2016-01-02
   title: Lauriston/HW 5-mile
   location: Wimbledon Common
+  time: 14:00
 
 - date: 2016-01-09
-  title: Surrey County XC Championships
+  title: Surrey County XC Championships (Ladies)
+  location: Dorking
+  start: 13:00
+
+- date: 2016-01-09
+  title: Surrey County XC Championships (Men)
+  location: Dorking
+  start: 14:00
+
+- date: 2016-01-10
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
 
 - date: 2016-01-16
   title: Surrey League 3 (Ladies)
@@ -181,21 +228,29 @@
 - date: 2016-01-16
   title: Surrey League 3 (Men)
   url: http://surreyleague.org/slm/
+  location: Mitcham Common
   start: 14:30
 
 - date: 2016-01-30
-  title: Southern Cross Country Championships
+  title: Southern Cross Country Championships (Ladies 8km)
   location: Parliament Hill	
+  start: 14:05
+
+- date: 2016-01-30
+  title: Southern Cross Country Championships (Men 15km)
+  location: Parliament Hill	
+  start: 14:50
 
 - date: 2016-02-13
   title: Surrey League 4 (Ladies)
   url: http://surreyleague.org/sll/
-  location: Richmond Park
+  location: Petersham
   start: 12:00
 
 - date: 2016-02-13
   title: Surrey League 4 (Men)
   url: http://surreyleague.org/slm/
+  location: Wimbledon Common (Hercules)
   start: 15:00
 
 - date: 2015-02-14
@@ -209,37 +264,78 @@
   title: National XC Champs
   location: Donnington Park
   
-- date: 2016-03-05
-  title: Long Dist Hcap/ Annual dinner ?
+- date: 2016-02-28
+  title: Dash For the Splash 10km
   location: Home
+  start: 09:30
+  url: http://www.dashforthesplash.com/
+
+- date: 2016-03-05
+  title: Long Distance Handicap 7½ miles
+  location: Home
+  pioneers: yes
   
-- date: 2016-03-12
-  title: Inter-Counties
+- date: 2016-03-05
+  title: Annual Dinner
+  location: London
+  start: 19:30
   
+- date: 2016-03-10
+  title: Teddy Hall Relays
+  location: Oxford
+  start: 13:30
+
 - date: 2016-03-13
   title: British Masters XC Champs
+  location: Bath
   
-- title: Teddy Hall Relays
-  location: Oxford
+- date: 2016-03-13
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
 
-- title: Roman Road Race
+- title: Roman Road Run 9 miles
   location: Cambridge
 
 - date: 2016-03-19
-  title: 10 Mile Challenge and Handicap (Richmond Park) & AGM
+  title: 10 Mile Challenge and Handicap (Richmond Park)
   location: Home
+  start: 14:30
+
+- date: 2016-03-19
+  title: AGM
+  location: Home
+  start: 16:30
 
 - date: 2016-04-02
-  title: Southern 12/6 stage relays
+  title: Ladies' Southern 6 stage relays
   location: Milton Keynes
 
+- date: 2016-04-02
+  title: Men's Southern 12 stage relays
+  location: Milton Keynes
+
+- date: 2016-04-10
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
 - date: 2016-04-16
-  title: National 6/12 stage relays
+  title: Ladies' National 6 stage relays
+  location: Sutton Park
+
+- date: 2016-04-16
+  title: Men's National 12 stage relays
   location: Sutton Park
 
 - date: 2016-04-24
   title: London Marathon
   location: London
+  url: https://www.virginmoneylondonmarathon.com/en-gb/
   
 - date: 2016-05-01
   title: Ranelagh Richmond Half Marathon
@@ -248,32 +344,51 @@
 - date: 2016-05-07
   title: Outlying Run
   
+- date: 2016-05-08
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
 - date: 2016-05-14
-  title: Masters road relays sutton park
+  title: National Masters’ Road Relays
   location: Sutton Park
   
 - date: 2016-05-30
   title: London 10000
-  location: London
+  location: The Mall
+  start: 10:00
 
 - date: 2016-06-01
   title: Parkland Relays
   location: Richmond Park
+  time: 19:00
+  pioneers: yes
+
+- date: 2016-06-12
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
   pioneers: yes
 
 - date: 2016-06-18
-  title: Summer Sports & handicap
+  title: Summer Sports & Midsummer Handicap
+  start: 12:00
   location: Home
 
 - date: 2016-06-18
   title: Summer Wine Party
+  location: London
   
 - date: 2016-06-19
   title: Richmond 10km
   location: Petersham
+  time: 09:00
   
 - title: Harry Hawkes 10 incl CW handicap
+  location: Thames Ditton
 
-- title: Wedding Day
-
-- title: Wimbledon 5km (tbc)
+- title: Wedding Day 7km
+  location: Bushy Park

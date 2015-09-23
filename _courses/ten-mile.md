@@ -2,7 +2,7 @@
 title: Ten Mile Course
 layout: post
 excerpt: The ten mile course is used for our summer handicap.
-map: http://www.thameshareandhounds.org.uk/images/THH_10.jpg
+map: /img/THH_10.jpg
 date: 2004-03-20
 author: Chief Pioneer
 ---

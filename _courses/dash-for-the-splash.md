@@ -4,7 +4,7 @@ layout: post
 excerpt: The Dash For The Splash 10k is presented by TH&H on Wimbledon Common in February of each year.
 author: Chief Pioneer
 date: 2015-09-22
-map: http://www.dashforthesplash.com/dfts_map_re.png
+map: /img/dfts_map_re.png
 ---
 
 {{page.excerpt}}

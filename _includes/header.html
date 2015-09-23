@@ -2,15 +2,27 @@
   <div class="mdl-layout__header-row">
     <span class="mdl-layout-title">Thames Hare &amp; Hounds</span>
     <div class="mdl-layout-spacer"></div>
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-      <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
-        <i class="material-icons">search</i>
-      </label>
-      <div class="mdl-textfield__expandable-holder">
-        <input class="mdl-textfield__input" type="text" id="search" />
-        <label class="mdl-textfield__label" for="search">Enter your query...</label>
-      </div>
-    </div>
+
+    <!-- Left aligned menu below button -->
+    <button id="demo-menu-lower-right"
+            class="mdl-button mdl-js-button mdl-button--icon">
+      <i class="material-icons">more_vert</i>
+    </button>
+
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+        for="demo-menu-lower-right">
+      <li class="mdl-menu__item">Older pages...</li>
+      <li class="mdl-menu__item"><a href="/benefits/">Benefits</a></li>
+      <li class="mdl-menu__item"><a href="/clubkit/">Club Kit</a></li>
+      <li class="mdl-menu__item"><a href="/courses/">Courses</a></li>
+      <li class="mdl-menu__item"><a href="/history/">History</a></li>
+      <li class="mdl-menu__item"><a href="/mossyfoot.html">Mossy Foot</a></li>
+      <li class="mdl-menu__item"><a href="/books/">Books</a></li>
+      <li class="mdl-menu__item"><a href="/links/">Links</a></li>
+    </ul>
+
+
+
   </div>
 </header>
 <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
@@ -20,66 +32,31 @@
   </header>
   <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
 
-    <a class="mdl-navigation__link" href="/">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>
-      Home
-    </a>
     <a class="mdl-navigation__link" href="/about/">
       <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">info</i>
       About
     </a>
-    <a class="mdl-navigation__link" href="/regular_runs/">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">directions_run</i>
-      Training
+    <a class="mdl-navigation__link" href="/all/">
+      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">description</i>
+      News
     </a>
     <a class="mdl-navigation__link" href="/fixtures/">
       <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">event</i>
       Fixtures
     </a>
-    <a class="mdl-navigation__link" href="/all/">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">description</i>
-      Reports
-    </a>
-    <a class="mdl-navigation__link" href="/benefits/">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">card_giftcard</i>
-      Benefits
-    </a>
-    <a class="mdl-navigation__link" href="/clubkit/">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>
-      Club kit
-    </a>
     <a class="mdl-navigation__link" href="/races/">
       <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">flag</i>
       Races
     </a>
-    <a class="mdl-navigation__link" href="/courses/">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">place</i>
-      Courses
-    </a>
-    <a class="mdl-navigation__link" href="/history/">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">history</i>
-      History
-    </a>
-    <a class="mdl-navigation__link" href="/mossyfoot.html">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">group</i>
-      Mossy Foot
-    </a>
-    <a class="mdl-navigation__link" href="/books/">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_library</i>
-      Books
-    </a>
-    <a class="mdl-navigation__link" href="/links.html">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">open_in_browser</i>
-      Links
-    </a>
-    <a class="mdl-navigation__link" href="http://forum.thh.run">
-      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">open_in_browser</i>
-      Forum
+    <a class="mdl-navigation__link" href="/regular_runs/">
+      <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">directions_run</i>
+      Training
     </a>
     <a class="mdl-navigation__link" href="/help.html">
       <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">open_in_browser</i>
       Help
     </a>
+
 
   </nav>
 </div>

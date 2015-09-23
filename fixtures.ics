@@ -41,7 +41,7 @@ LOCATION:Richard Evans Memorial Playing Fields\, Roehampton Vale\, London SW15 3
 {% else %}
 LOCATION:{{ fixture.location | replace:',','\,' }}
 {% endif %}
-SUMMARY:{{ fixture.title }}{% if fixture.location %} ({{ fixture.location | replace:',','\,' }}){% endif %}
+SUMMARY:{{ fixture.title | replace:',','\,' }}{% if fixture.location %} ({{ fixture.location | replace:',','\,' }}){% endif %}
 {% if fixture.url %}
 DESCRIPTION:{{ fixture.url }}
 {% endif %}

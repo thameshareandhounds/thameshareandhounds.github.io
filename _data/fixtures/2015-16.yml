@@ -202,22 +202,22 @@
   location: Wimbledon Common
   time: 14:00
 
-- date: 2016-01-09
-  title: Surrey County XC Championships (Ladies)
-  location: Dorking
-  start: 13:00
-
-- date: 2016-01-09
-  title: Surrey County XC Championships (Men)
-  location: Dorking
-  start: 14:00
-
 - date: 2016-01-10
   title: Second Sunday 5
   url: http://secondsunday5.com
   location: Home
   start: 09:30
   pioneers: yes
+
+- date: 2016-01-10
+  title: Surrey County XC Championships (Ladies)
+  location: Dorking
+  start: 13:00
+
+- date: 2016-01-10
+  title: Surrey County XC Championships (Men)
+  location: Dorking
+  start: 14:00
 
 - date: 2016-01-16
   title: Surrey League 3 (Ladies)

@@ -52,13 +52,13 @@
   address: Sutton Coldfield B73 6LH
 
 - date: 2015-10-10
-  title: Surrey League 1 Ladies
+  title: Surrey League (Ladies)
   url: http://surreyleague.org/sll/
   location: Roundshaw Common, Wallington
   start: 12:00
 
 - date: 2015-10-10
-  title: Surrey League 1 Men
+  title: Surrey League (Men)
   location: Wimbledon Common (Windmilers)
   url: http://surreyleague.org/slm/
   address: Sunset Rd, London SW19 4UL
@@ -103,13 +103,13 @@
   location: Mansfield
 
 - date: 2015-11-07
-  title: Surrey League 2 (Ladies)
+  title: Surrey League (Ladies)
   url: http://surreyleague.org/sll/
   location: Esher
   start: 12:00
 
 - date: 2015-11-07
-  title: Surrey League 2 (Men)
+  title: Surrey League (Men)
   url: http://surreyleague.org/slm/
   location: Wimbledon Common (Belgrave Harriers)
   start: 15:00
@@ -220,13 +220,13 @@
   start: 14:00
 
 - date: 2016-01-16
-  title: Surrey League 3 (Ladies)
+  title: Surrey League (Ladies)
   url: http://surreyleague.org/sll/
   location: Reigate
   start: 12:00
 
 - date: 2016-01-16
-  title: Surrey League 3 (Men)
+  title: Surrey League (Men)
   url: http://surreyleague.org/slm/
   location: Mitcham Common
   start: 14:30
@@ -242,13 +242,13 @@
   start: 14:50
 
 - date: 2016-02-13
-  title: Surrey League 4 (Ladies)
+  title: Surrey League (Ladies)
   url: http://surreyleague.org/sll/
   location: Petersham
   start: 12:00
 
 - date: 2016-02-13
-  title: Surrey League 4 (Men)
+  title: Surrey League (Men)
   url: http://surreyleague.org/slm/
   location: Wimbledon Common (Hercules)
   start: 15:00

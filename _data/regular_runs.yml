@@ -73,6 +73,15 @@
   email: mail@nicgould.co.uk
 
 - days: ['Sunday']
+  first: 2015-10-04
+  location: Robin Hood Gate
+  start: 10:00
+  title: Thames/Belgrave Long Run
+  description: Long Sunday run of 10-12 miles, mostly at a conversational pace.
+  organizer: Will Cockerell
+  email: willcockerell@gmail.com
+
+- days: ['Sunday']
   first: 2015-09-13
   location: Wimbledon Common
   rrule: FREQ=MONTHLY;BYDAY=SU;BYSETPOS=2

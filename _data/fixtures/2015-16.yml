@@ -116,6 +116,13 @@
   location: Wimbledon Common (Belgrave Harriers)
   start: 15:00
 
+- date: 2015-11-08
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
 - date: 2015-11-14
   title: London Championships (Ladies 6km)
   location: Parliament Hill
@@ -125,13 +132,6 @@
   title: London Championships (Men 10km)
   location: Parliament Hill
   start: 14:00
-
-- date: 2015-11-15
-  title: Second Sunday 5
-  url: http://secondsunday5.com
-  location: Home
-  start: 09:30
-  pioneers: yes
 
 - date: 2015-11-21
   title: South of the Thames CCA 5 miles Team Race

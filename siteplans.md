@@ -2,6 +2,9 @@
 permalink: /siteplans/
 layout: default
 ---
+
+Proposed sitemap for new site.  This would appear as an expandable menu on the left side.
+
  * ABOUT US
    - When and where we meet
    - Club training

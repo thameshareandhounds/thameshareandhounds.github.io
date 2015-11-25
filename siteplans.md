@@ -9,6 +9,7 @@ Proposed sitemap for new site.  This would appear as an expandable menu on the l
    - When and where we meet
    - Club training
    - Club benefits
+   - Committee
  * NEWS
  * EVENTS
    - Fixtures
@@ -26,5 +27,5 @@ Proposed sitemap for new site.  This would appear as an expandable menu on the l
    - Club history
    - Publications
  * CLUB KIT
- * CONTACT
+ * CONTACT US
  * HELP

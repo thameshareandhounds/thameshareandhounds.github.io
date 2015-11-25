@@ -46,9 +46,25 @@ html, body {
   color: rgba(255, 255, 255, 0.56);
   margin-right: 32px;
 }
-.mdl-color-text--blue-grey-400.material-icons {
-  font-size:.9em;
+.mdl-navigation__link-sublink {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.56);
+  font-weight: 500;
+  font-size: 0.9em;
+  width: 80%;
+  color: #424242;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  margin: 0;
+  padding: 10px 40px;
+  color: #78909c !important
 }
+
+
+
 /*Centers content*/
 .demo-content {
   max-width: 1080px;

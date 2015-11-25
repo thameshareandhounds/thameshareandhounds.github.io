@@ -23,6 +23,14 @@ Proposed sitemap for new site.  This would appear as an expandable menu on the l
    - TH&H Challenges
    - TH&H Handicaps
    - Varsity Race
+ * COURSES
+   - 5 mile
+   - 7.5 mile
+   - 10 mile
+   - Parkland Relays
+   - Dash for the Splash
+   - Second Sunday 5
+   - Varsity Race
  * HISTORY
    - Club history
    - Publications

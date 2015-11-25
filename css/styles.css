@@ -36,6 +36,10 @@ html, body {
   font-size: 1.1em;
 }
 /*Navbar background hover*/
+.demo-layout .demo-navigation .mdl-navigation__link-sublink:hover {
+  background-color: #00BCD4;
+  color: #37474F;
+}
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
   background-color: #00BCD4;
   color: #37474F;
@@ -46,31 +50,60 @@ html, body {
   color: rgba(255, 255, 255, 0.56);
   margin-right: 32px;
 }
-.mdl-navigation__link-sublink {
+/*Navbar Edit*/
+.demo-layout .demo-navigation .mdl-navigation__link-sublink {
+  font-size: 0.9em;
+  width: 80%;
   display: flex !important;
   flex-direction: row;
   align-items: center;
   color: rgba(255, 255, 255, 0.56);
-  font-weight: 500;
-  font-size: 0.9em;
-  width: 80%;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link-sublink {
+  padding: 10px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link-sublink {
+    padding: 16px;
+  }
+}
+.mdl-navigation__link-sublink {
   color: #424242;
   text-decoration: none;
   font-weight: 500;
   font-size: 13px;
   margin: 0;
-  padding: 10px 40px;
-  color: #78909c !important
 }
-
-
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link-sublink {
+    padding: 10px 40px;
+}
+.demo-layout .demo-navigation .mdl-navigation__link-sublink {
+    font-size: 0.9em;
+    width: 80%;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.56);
+}
+.mdl-navigation__link-sublink {
+    color: #424242;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0;
+}
+.mdl-color-text--blue-grey-400-sublink {
+    color: #78909c !important;
+    padding-right: 30px;
+}
 
 /*Centers content*/
 .demo-content {
   max-width: 1080px;
 }
 /* Navbar spacing */
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link-sublink {
   padding: 10px 40px;
 }
 /* thh logo */

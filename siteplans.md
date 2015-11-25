@@ -10,7 +10,9 @@ Proposed sitemap for new site.  This would appear as an expandable menu on the l
    - Club training
    - Club benefits
  * NEWS
- * FIXTURES
+ * EVENTS
+   - Fixtures
+   - Social events
  * RACES
    - Alumni Race
    - Dash for the Splash

@@ -1,0 +1,79 @@
+---
+permalink: /social_events/
+layout: default
+---
+
+<h2>Social Events</h2>
+
+<table class="mdl-data-table">
+    <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Date</th>
+          <th class="mdl-data-table__cell--non-numeric">Race</th>
+          <th class="mdl-data-table__cell--non-numeric">Location</th>
+          <th class="mdl-data-table__cell--non-numeric">Start</th>
+        </tr>
+    </thead>
+    <tbody class=index>
+{% assign fixtures = season_hash[1] %}
+{% for fixture in fixtures %}
+    {% if fixture.date %}
+        {% assign current_month = fixture.date | date: "%B %Y" %}
+        {% if current_month != last_month %}
+            <tr>
+                <th colspan="4" class="mdl-data-table__cell--non-numeric">{{current_month}}</th>
+            </tr>
+            {% assign last_month = current_month %}
+        {% endif %}
+    {% endif %}
+        <tr>
+            <td class="mdl-data-table__cell--non-numeric">
+                {% if fixture.date %}
+                    {% if fixture.date != last_date %}
+                        {{fixture.date | date: "%a"}}
+                        {% assign day = fixture.date | date: "%-d" %}
+                        {% case day %}
+                            {% when '1' or '21' or '31' %}{{ day }}st
+                            {% when '2' or '22' %}{{ day }}nd
+                            {% when '3' or '23' %}{{ day }}rd
+                            {% else %}{{ day }}th
+                         {% endcase %}
+                        {{fixture.date | date: "%b"}}
+                        {% assign last_date = fixture.date %}
+                    {% endif %}
+                {% else %}
+                    TBA
+                {% endif %}
+            </td>
+            <td class="mdl-data-table__cell--non-numeric">
+            {% if fixture.pioneers %}
+                <abbr title="Pioneers required">¶</abbr>
+            {% endif %}
+            {% if fixture.url %}
+                <a href="{{fixture.url}}">{{fixture.title}}</a>
+            {% else %}
+                {{fixture.title}}
+            {% endif %}
+            </td>
+            <td class="mdl-data-table__cell--non-numeric">
+            {% if fixture.address %}
+                {% capture address_url %}http://maps.google.co.uk/?q={{fixture.address}}{% endcapture %}
+                <a href="{{address_url}}">{{fixture.location}}</a>
+            {% elsif fixture.location == 'Home' %}
+                <a href="/courses">{{fixture.location}}</a>
+            {% else %}
+                {{fixture.location}}
+            {% endif %}
+            </td>
+            <td class="mdl-data-table__cell--non-numeric">
+            {% if fixture.start %}
+                {% assign start_minute = fixture.start | modulo:60 | remove:'.0' %}
+                {% assign start_hour = fixture.start | minus: start_minute | divided_by:60 | remove:'.0' %}
+                {% capture start %}{{ fixture.date | date: "%Y-%m-%d" }} {{start_hour}}:{{start_minute}}:00{% endcapture %}
+                {{start | date: "%-I:%M %p"}}
+            {% endif %}
+            </td>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>

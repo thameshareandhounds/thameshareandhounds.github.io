@@ -72,7 +72,7 @@ html, body {
   color: #424242;
   text-decoration: none;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 13px;l;
   margin: 0;
 }
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link-sublink {
@@ -162,8 +162,6 @@ footer {
   border: 2px black solid;
   margin-bottom: 50px;
 }
-
-
 .thh-main-content img {
     max-width: 100%;
     height: auto; 

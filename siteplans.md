@@ -8,8 +8,12 @@ Proposed sitemap for new site.  This would appear as an expandable menu on the l
  * ABOUT US
    - When and where we meet
    - Club training
+   - Men's team
+   - Ladies' team
+   - Veterans
    - Club benefits
    - Committee
+   - How to join
  * NEWS
  * EVENTS
    - Fixtures

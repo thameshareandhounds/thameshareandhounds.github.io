@@ -8,7 +8,7 @@ tags: committee
 Committee
 =========
 
-There are fourteen members of the club’s committee:
+There are currently fourteen members of the club’s committee:
 
 President: Mike Farmery 	<br>
 Honorary Treasurer: Matthew Lynas<br>

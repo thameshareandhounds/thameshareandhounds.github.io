@@ -12,9 +12,9 @@ There are fourteen members of the club’s committee:
 
 President: Mike Farmery 	<br>
 Honorary Treasurer: Matthew Lynas<br>
-Honorary Secretary:	Simon Molden 	(<simon@scmolden.co.uk>)<br><br>
-Club Captain: Matthew Jones	(<m4ttjones@yahoo.co.uk>)<br><br>
-Ladies’ Captain: Annette Gould	(<annettejchase@hotmail.com>)<br><br>
+Honorary Secretary:	Simon Molden 	(<simon@scmolden.co.uk>)<br>
+Club Captain: Matthew Jones	(<m4ttjones@yahoo.co.uk>)<br>
+Ladies’ Captain: Annette Gould	(<annettejchase@hotmail.com>)<br>
 Chief Pioneer: Edward Catmur 	<br>
 Fixtures Secretary: Nic Gould <br>
 Men’s Vice-captain: James McMullan	<br>

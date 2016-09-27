@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  {% include head.html %}
+  </head>
+
+    <body class="bodyhome">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="/"><img src="/img/logo.jpg" alt=""/></a>
+            </div>
+            <div class="nav-toggle">
+                <a href="#" id="toggle" class="toggle"></a>
+            </div>
+            <ul class="nav-bar-menu">
+                <li><a href="/about/" class="nav-active">about us</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">events</a></li>
+                <li><a href="#">races</a></li>
+                <li><a href="#" class="show-sub-bar">courses</a>
+                    <ul class="sub-bar">
+                        <li><a href="#">- 5 mile</a></li>
+                        <li><a href="#">- 7.5 mile</a></li>
+                        <li><a href="#">- 10 mile</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">club kit</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+
+        {{ content }}
+        {% include sidebar.html %}
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/masonry.pkgd.min.js"></script>
+        <script src="/js/jquery.vticker.min.js"></script>
+        <script src="/js/main.js"></script>
+    </body>
+
+</html>

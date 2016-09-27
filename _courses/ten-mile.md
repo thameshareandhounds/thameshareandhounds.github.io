@@ -5,6 +5,7 @@ excerpt: The ten mile course is used for our summer handicap.
 map: /img/THH_10.jpg
 date: 2004-03-20
 author: Chief Pioneer
+permalink: /10_mile/
 ---
 
 {{page.excerpt}} <a href="{{page.map}}">See map</a>.

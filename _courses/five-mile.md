@@ -5,6 +5,7 @@ excerpt: The five mile course is used for the summer and opening handicaps and o
 map: /img/THH_5_mile.jpg
 date: 2004-10-13
 author: Chief Pioneer
+permalink: /5_mile/
 ---
 
 {{page.excerpt}} <a href="{{page.map}}">See map</a>.

@@ -6,6 +6,7 @@ map: /img/parklandrelays12.png
 old_map: /img/parkland_course.jpg
 author: Chief Pioneer
 date: 2015-09-22
+permalink: /course_parkland_relay/
 ---
 
 {{page.excerpt}} <a href="{{page.map}}">See map</a>.

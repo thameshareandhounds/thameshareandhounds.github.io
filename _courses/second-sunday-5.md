@@ -5,6 +5,7 @@ excerpt: The Second Sunday 5 is a low key, five miler on Wimbledon running every
 author: Chief Pioneer
 date: 2015-09-22
 map: http://snippets.mapmycdn.com/routes/view/embedded/652805496?map_mode=TERRAIN
+permalink: /course_second_sun/
 ---
 
 {{page.excerpt}}

@@ -14,25 +14,27 @@
             </div>
             <ul class="nav-bar-menu">
                 <li><a href="/about/" class="nav-active">about us</a></li>
-                <li><a href="#">news</a></li>
-                <li><a href="#">events</a></li>
-                <li><a href="#">races</a></li>
+                <li><a href="/all/">news</a></li>
+  <!--              <li><a href="#">events</a></li>  -->
+                <li><a href="/fixtures/">races</a></li>
                 <li><a href="#" class="show-sub-bar">courses</a>
                     <ul class="sub-bar">
-                        <li><a href="#">- 5 mile</a></li>
-                        <li><a href="#">- 7.5 mile</a></li>
-                        <li><a href="#">- 10 mile</a></li>
+                        <li><a href="/5_mile/">- 5 mile</a></li>
+                        <li><a href="/7.5_mile/">- 7.5 mile</a></li>
+                        <li><a href="/10_mile/">- 10 mile</a></li>
+                        <li><a href="/course_parkland_relay/">- Relay</a></li>
+                        <li><a href="/course_second_sun/">- 2nd Sunday 5</a></li>
                     </ul>
                 </li>
-                <li><a href="#">club kit</a></li>
-                <li><a href="#">contact us</a></li>
+                <li><a href="/clubkit/">club kit</a></li>
+                <li><a href="/contactus/">contact us</a></li>
             </ul>
         </div>
 
         <!-- we don't want this extra nesting on the home page,
-        just the ones with default layout -->
+        just the ones with default layout - its the extra wrap that is the problem -->
         <div class="container">
-            <div class="wrap">
+           <div class="wrap">
             {{ content }}
             </div>
         </div>

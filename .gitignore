@@ -5,3 +5,5 @@ Gemfile.lock
 bin
 include
 lib
+vendor
+.bundle

@@ -5,6 +5,7 @@ excerpt: The seven and a half mile course is used for mob matches and the long-d
 map: /img/THH_7_and_a_half.jpg
 date: 2004-03-20
 author: Chief Pioneer
+permalink: /7.5_mile/
 ---
 
 {{page.excerpt}} <a href="{{page.map}}">See map</a>.

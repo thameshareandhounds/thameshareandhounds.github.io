@@ -2,6 +2,7 @@
 layout: default
 title: home
 permalink: /
+experiments: [{'size': 'little', 'colour': 'red', 'action': 'riding', 'headgear': 'hood'}, {'size': 'big', 'colour': 'brown', 'action': 'eating', 'headgear': 'ears'}]
 ---
 
         <div class="container">
@@ -24,6 +25,7 @@ permalink: /
                 </div>
             </div>
         </div>
+<h1>{{ page.experiments[1]['colour'] }}</h1>
         <div class="container">
             <div class="wrap">
                 <div class="news-holder">
@@ -140,7 +142,6 @@ permalink: /
                 </div>
             </div>
         </div>
-
 
 <!-- <h2>Welcome!</h2>
 <p>Based on Wimbledon Common in South West London, Thames Hare and Hounds is the oldest cross-country running club in the world. Our large membership is made up of runners of all ages and abilities. We enjoy a full program of training, racing and social events, at all of which newcomers are very welcome. To find out more about us click <a href="/about/">here</a>.</p>

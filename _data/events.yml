@@ -1,0 +1,44 @@
+- date_day: 21
+  date_mon: Sep
+  days: Wed
+  location: Thames Club House
+  start: 7.30pm
+  title: Club Run
+  organizer: Simon Molden
+  email: simon@scmolden.co.uk
+
+- date_day: 28
+  date_mon: Sep
+  days: Wed
+  location: Thames Club House
+  start: 7.30pm
+  title: Club Run
+  organizer: Simon Molden
+  email: simon@scmolden.co.uk
+
+- date_day: 5
+  date_mon: Oct
+  days: Wed
+  location: Thames Club House
+  start: 7.30pm
+  title: Club Run
+  organizer: Simon Molden
+  email: simon@scmolden.co.uk
+
+- date_day: 24
+  date_mon: Sep
+  days: Sat
+  location: Ranelagh
+  start: 2.30pm
+  title: Ranelagh Mob Match
+  organizer: Simon Molden
+  email: simon@scmolden.co.uk
+
+- date_day: 1
+  date_mon: Oct
+  days: Sat
+  location: Mitcham
+  start: 2.30pm
+  title: Surrey League
+  organizer: Simon Molden
+  email: simon@scmolden.co.uk

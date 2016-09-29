@@ -1,5 +1,6 @@
 ---
 title: Seven-and-a-Half Mile Course
+short_title: 7.5 miles
 layout: post
 excerpt: The seven and a half mile course is used for mob matches and the long-distance handicap. With a slight deviation at the start to take in the water-splash it is also used for the mens' varsity match.
 map: /img/THH_7_and_a_half.jpg

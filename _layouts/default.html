@@ -13,17 +13,22 @@
                 <a href="#" id="toggle" class="toggle"></a>
             </div>
             <ul class="nav-bar-menu">
-                <li><a href="/about/" class="nav-active">about us</a></li>
+                <li><a href="/about/" >about us</a></li>
                 <li><a href="/all/">news</a></li>
-  <!--              <li><a href="#">events</a></li>  -->
-                <li><a href="/fixtures/">races</a></li>
+                <li><a href="/regular_runs/">regular runs</a></li> 
+      
+                <li><a href="#" class="show-sub-bar">events</a>
+                    <ul class="sub-bar">
+                        <li><a href="/fixtures/">-races</a></li>
+                        <li><a href="/social_events/">-social</a></li>
+                    </ul>  
+                </li>
+
                 <li><a href="#" class="show-sub-bar">courses</a>
                     <ul class="sub-bar">
-                        <li><a href="/5_mile/">- 5 mile</a></li>
-                        <li><a href="/7.5_mile/">- 7.5 mile</a></li>
-                        <li><a href="/10_mile/">- 10 mile</a></li>
-                        <li><a href="/course_parkland_relay/">- Relay</a></li>
-                        <li><a href="/course_second_sun/">- 2nd Sunday 5</a></li>
+                        {% for course in site.courses   %}
+                          <li><a href="{{ course.url}}">- {{ course.short_title }}</a></li>
+                        {% endfor %}
                     </ul>
                 </li>
                 <li><a href="/clubkit/">club kit</a></li>

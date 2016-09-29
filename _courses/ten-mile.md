@@ -1,5 +1,6 @@
 ---
 title: Ten Mile Course
+short_title: 10 miles
 layout: post
 excerpt: The ten mile course is used for our summer handicap.
 map: /img/THH_10.jpg

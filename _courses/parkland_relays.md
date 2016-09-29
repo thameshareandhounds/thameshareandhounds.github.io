@@ -1,5 +1,6 @@
 ---
 title: Parkland Relays Course
+short_title: Park Relay
 layout: post
 excerpt: The Parkland Relays is run between local clubs on a Wednesday summer's evening in Richmond Park.
 map: /img/parklandrelays12.png

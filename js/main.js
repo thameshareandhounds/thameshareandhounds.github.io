@@ -8,8 +8,10 @@ $(window).load(function () {
         percentPosition: true
     });
     $('.show-sub-bar').click(function () {
-        $('.sub-bar').slideToggle();
-        $('.show-sub-bar').toggleClass('nav-active');
+        $('.show-sub-bar').removeClass('nav-active');
+        $('.sub-bar').hide();
+        $(this).next().slideToggle();
+        $(this).toggleClass('nav-active');
     });
     $('#toggle').click(function () {
         $(this).toggleClass('show-nav-bar');

@@ -33,11 +33,17 @@
 
         <!-- we don't want this extra nesting on the home page,
         just the ones with default layout - its the extra wrap that is the problem -->
-        <div class="container">
-           <div class="wrap">
-            {{ content }}
+        {% if page.url == "/" %}
+                {{ content }}
+        {% else %}
+            <div class="container">
+                 <div class="wrap">
+                    {{ content }}
+                 </div>
             </div>
-        </div>
+        {% endif %}
+    
+       
         {% include sidebar.html %}
 
 

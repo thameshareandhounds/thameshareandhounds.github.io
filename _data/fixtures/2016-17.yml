@@ -127,30 +127,30 @@
   location: Parliament Hill
   start: 14:50
 
-- date: 2016-02-11
+- date: 2017-02-11
   title: Surrey League (Ladies)
   url: http://surreyleague.org/sll/
   location: Coulsdon
   start: 12:00
 
-- date: 2016-02-11
+- date: 2017-02-11
   title: Surrey League (Men)
   url: http://surreyleague.org/slm/
   location: Wimbledon Common (Hercules)
   start: 15:00
 
-- date: 2016-02-12
+- date: 2017-02-12
   title: Second Sunday 5 and Milocarians
   url: http://secondsunday5.com
   location: Home
   start: 09:30
   pioneers: yes
 
-- date: 2016-02-25
+- date: 2017-02-25
   title: National XC Champs
   location: Wollaton Park
 
-- date: 2016-02-26
+- date: 2017-02-26
   title: Dash For the Splash 10km
   url: http://www.dashforthesplash.com/
   location: Home
@@ -162,17 +162,17 @@
   location: Home
   pioneers: yes
 
-- date: 2016-03-04
+- date: 2017-03-04
   title: Annual Dinner
   location: London
   start: 19:30
 
-- date: 2016-03-8
+- date: 2017-03-8
   title: Teddy Hall Relays
   location: Oxford
   start: 13:30
 
-- date: 2016-03-12
+- date: 2017-03-12
   title: Second Sunday 5
   url: http://secondsunday5.com
   location: Home
@@ -189,30 +189,28 @@
   title: CUH&H Annual Dinner
   location: Cambridge
 
-- date: 2016-03-25
+- date: 2017-03-25
   title: Ladies' Southern 6 stage relays
   location: Cyclopark, Kent
 
-- date: 2016-03-25
+- date: 2017-03-25
   title: Men's Southern 12 stage relays
   location: Cyclopark, Kent
 
-- date: 2016-04-10
+- date: 2017-04-08
+  title: Ten Mile Challenge & Handicap
+  location: Home
+  start: 14:30
+  pioneers: yes
+
+- date: 2017-04-09
   title: Second Sunday 5
   url: http://secondsunday5.com
   location: Home
   start: 09:30
   pioneers: yes
 
-- date: 2016-04-16
-  title: Ladies' National 6 stage relays
-  location: Sutton Park
-
-- date: 2016-04-16
-  title: Men's National 12 stage relays
-  location: Sutton Park
-
-- date: 2016-04-24
+- date: 2017-04-24
   title: London Marathon
   location: London
   url: https://www.virginmoneylondonmarathon.com/en-gb/

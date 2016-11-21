@@ -7,3 +7,4 @@ include
 lib
 vendor
 .bundle
+.DS_Store

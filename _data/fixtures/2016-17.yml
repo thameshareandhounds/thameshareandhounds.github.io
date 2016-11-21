@@ -1,0 +1,274 @@
+
+- date: 2016-11-12
+  title: Surrey League (Men)
+  url: http://surreyleague.org/slm/
+  location: Coulsdon
+  start: 15:00
+
+- date: 2016-11-13
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
+- date: 2016-11-19
+  title: London Championships (Ladies 6km)
+  location: Parliament Hill
+  start: 13:15
+
+- date: 2016-11-19
+  title: London Championships (Men 10km)
+  location: Parliament Hill
+  start: 14:00
+
+- date: 2016-11-26
+  title: South of the Thames CCA 5 miles Team Race
+  location: Polesden Lacey
+  start: 14:00
+
+- date: 2016-11-26
+  title: K&P 7 Miles Richmond Park
+  location: Sheen Cross
+  start: 14:00
+
+- date: 2016-12-03
+  title: Surrey League (Ladies)
+  url: http://surreyleague.org/sll/
+  location: Mitcham Common
+  start: 12:00
+
+- date: 2016-12-03
+  title: Varsity Match Old Blues' Race
+  location: Home
+  pioneers: yes
+  start: 13:00
+
+- date: 2016-12-03
+  title: Varsity Match Ladies' Race
+  location: Home
+  pioneers: yes
+  start: 14:00
+
+- date: 2016-12-03
+  title: Varsity Match Men's Race
+  location: Home
+  pioneers: yes
+  start: 14:45
+
+- date: 2016-12-10
+  title: SEAA Masters & Inter Counties Champs
+  location: Oxford
+  start: 11:00
+
+- date: 2016-12-11
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
+- date: 2016-12-17
+  title: Alumni Race (5 miles)
+  location: Home
+  start: 14:30
+  pioneers: yes
+
+- date: 2016-12-21
+  title: Five Miles and Carols
+  start: 19:00
+
+- date: 2016-12-25
+  title: Lauriston RC 30min Paarlauf
+  location: Lauriston Cottage
+  start: 11:00
+
+- date: 2016-12-31
+  title: Lauriston/HW 5-mile
+  location: Wimbledon Common
+  time: 14:00
+
+- date: 2017-01-07
+  title: Surrey County XC Championships (Ladies)
+  location: Dorking
+  start: 13:00
+
+- date: 2017-01-07
+  title: Surrey County XC Championships (Men)
+  location: Dorking
+  start: 14:00
+
+- date: 2017-01-08
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
+- date: 2017-01-14
+  title: Surrey League (Ladies)
+  url: http://surreyleague.org/sll/
+  location: Lloyd Oark
+  start: 12:00
+
+- date: 2017-01-14
+  title: Surrey League (Men)
+  url: http://surreyleague.org/slm/
+  location: Mitcham Common
+  start: 14:30
+
+- date: 2017-01-28
+  title: Southern Cross Country Championships (Ladies 8km)
+  location: Parliament Hill
+  start: 14:05
+
+- date: 2017-01-28
+  title: Southern Cross Country Championships (Men 15km)
+  location: Parliament Hill
+  start: 14:50
+
+- date: 2016-02-11
+  title: Surrey League (Ladies)
+  url: http://surreyleague.org/sll/
+  location: Coulsdon
+  start: 12:00
+
+- date: 2016-02-11
+  title: Surrey League (Men)
+  url: http://surreyleague.org/slm/
+  location: Wimbledon Common (Hercules)
+  start: 15:00
+
+- date: 2016-02-12
+  title: Second Sunday 5 and Milocarians
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
+- date: 2016-02-25
+  title: National XC Champs
+  location: Wollaton Park
+
+- date: 2016-02-26
+  title: Dash For the Splash 10km
+  url: http://www.dashforthesplash.com/
+  location: Home
+  start: 09:30
+  pioneers: yes
+
+- date: 2016-03-04
+  title: Long Distance Handicap 7½ miles
+  location: Home
+  pioneers: yes
+
+- date: 2016-03-04
+  title: Annual Dinner
+  location: London
+  start: 19:30
+
+- date: 2016-03-8
+  title: Teddy Hall Relays
+  location: Oxford
+  start: 13:30
+
+- date: 2016-03-12
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
+- date: 2017-03-18
+  title: Mob Match vs South London Harriers
+  location: Home
+  start: 14:30
+  pioneers: yes
+
+- date: 2017-03-18
+  title: CUH&H Annual Dinner
+  location: Cambridge
+
+- date: 2016-03-25
+  title: Ladies' Southern 6 stage relays
+  location: Cyclopark, Kent
+
+- date: 2016-03-25
+  title: Men's Southern 12 stage relays
+  location: Cyclopark, Kent
+
+- date: 2016-04-10
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
+- date: 2016-04-16
+  title: Ladies' National 6 stage relays
+  location: Sutton Park
+
+- date: 2016-04-16
+  title: Men's National 12 stage relays
+  location: Sutton Park
+
+- date: 2016-04-24
+  title: London Marathon
+  location: London
+  url: https://www.virginmoneylondonmarathon.com/en-gb/
+
+- date: 2016-05-01
+  title: Ranelagh Richmond Half Marathon
+  location: Petersham
+
+- date: 2016-05-07
+  title: Outlying Run
+
+- date: 2016-05-08
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
+- date: 2016-05-14
+  title: National Masters’ Road Relays
+  location: Sutton Park
+
+- date: 2016-05-30
+  title: London 10000
+  location: The Mall
+  start: 10:00
+
+- date: 2016-06-01
+  title: Parkland Relays
+  location: Richmond Park
+  time: 19:00
+  pioneers: yes
+
+- date: 2016-06-12
+  title: Second Sunday 5
+  url: http://secondsunday5.com
+  location: Home
+  start: 09:30
+  pioneers: yes
+
+- date: 2016-06-18
+  title: Summer Sports & Midsummer Handicap
+  start: 12:00
+  location: Home
+
+- date: 2016-06-18
+  title: Summer Wine Party
+  location: London
+
+- date: 2016-06-19
+  title: Richmond 10km
+  location: Petersham
+  time: 09:00
+
+- title: Harry Hawkes 10 incl CW handicap
+  location: Thames Ditton
+
+- title: Wedding Day 7km
+  location: Bushy Park

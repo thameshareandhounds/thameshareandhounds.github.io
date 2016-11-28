@@ -215,58 +215,53 @@
   location: London
   url: https://www.virginmoneylondonmarathon.com/en-gb/
 
-- date: 2016-05-01
+- date: 2017-04-30
   title: Ranelagh Richmond Half Marathon
   location: Petersham
 
-- date: 2016-05-07
-  title: Outlying Run
-
-- date: 2016-05-08
+- date: 2017-05-14
   title: Second Sunday 5
   url: http://secondsunday5.com
   location: Home
   start: 09:30
   pioneers: yes
 
-- date: 2016-05-14
+- date: 2017-05-20
   title: National Masters’ Road Relays
   location: Sutton Park
 
-- date: 2016-05-30
+- date: 2017-05-20
+  title: Greenbelt Relay
+  location: London
+
+- date: 2017-05-29
   title: London 10000
   location: The Mall
   start: 10:00
 
-- date: 2016-06-01
+- date: 2017-06-07
   title: Parkland Relays
   location: Richmond Park
   time: 19:00
   pioneers: yes
 
-- date: 2016-06-12
+- date: 2017-06-11
   title: Second Sunday 5
   url: http://secondsunday5.com
   location: Home
   start: 09:30
   pioneers: yes
 
-- date: 2016-06-18
-  title: Summer Sports & Midsummer Handicap
+- date: 2017-06-17
+  title: Midsummer Handicap
   start: 12:00
   location: Home
 
-- date: 2016-06-18
+- date: 2017-06-17
   title: Summer Wine Party
   location: London
 
-- date: 2016-06-19
+- date: 2016-06-18
   title: Richmond 10km
   location: Petersham
   time: 09:00
-
-- title: Harry Hawkes 10 incl CW handicap
-  location: Thames Ditton
-
-- title: Wedding Day 7km
-  location: Bushy Park

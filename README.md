@@ -5,4 +5,6 @@ We're planning to use Jekyll for a static-only site.  I pushed this sentence fro
 
 I edited this line using the pencil icon on the Github repo editor.
 
+And we have change history too
+
 And I added this using the [prose.io](http://prose.io/) service.
